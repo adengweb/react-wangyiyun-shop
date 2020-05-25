@@ -1,68 +1,105 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿## React-wangyiyun-shop React仿网易云商城
 
-## Available Scripts
+云音乐商城是专注于音乐场景打造的音乐购物平台，包含音乐人周边、3c影音数码、音乐市集等，和我们一起让音乐购有趣，给生活加点料
 
-In the project directory, you can run:
+## 使用插件
 
-### `yarn start`
+``` bash
+  Ant Design Mobile  // 蚂蚁金服React UI框架
+  node-sass  // css预处理   yarn add node-sass
+  React router  //路由
+  axios  //  使用Promise管理异步的http库
+  redux   // 状态管理模式   npm install redux
+  JSON-server   // 启动API服务器
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 服务启动
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+``` bash
+  开发环境： yarn start
+  打包环境： yarn build
+```
 
-### `yarn test`
+## API
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` bash
+http://localhost:3200/user  // 用户数据
+http://localhost:3200/welfareInfo  // 用户福利社 需要用户status = 1展示
+http://localhost:3200/banners   // 首页banner
+http://localhost:3200/hotProduct   // 热门推荐
+http://localhost:3200/gettopics   // 分类
+  
+```
 
-### `yarn build`
+## Project issue
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` bash
+React组件的写法
+1、函数式
+function Comp(props){
+  return(...)
+}
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2、类
+class Comp extends React.Component {
+  render(){
+    return ( ... )
+  }
+}
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+属性
+<Comp name="" style={{...}} />  //单个属性直接传，多个属性用对象
 
-### `yarn eject`
+状态
+class Comp{
+  state = {}
+  componentDidMount(){
+    this.setState({prop:val})  //直接设置值
+    this.setState((state) =>({prop:val}))  // funtion设置
+  }
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+条件和循环
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+{this.state.isLogin ? {userInfo.name} : 登录}  //三元表达式
+{this.state.msg && <p>{this.state.msg}</p>}  // 如果前面不为空就输出
+{this.state.list.map( u => <li>{u.name}</li>)}  //循环
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+事件
+1、onChange = () => {} //注意this的指向
+<input onChange = {this.onChange}>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<input onChange = {()=>this.onChange(val)}>
+  
+```
 
-## Learn More
+## vs code代码片段
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+点选「首选项：配置用户代码片片段」；
+点击界面最左侧竖栏（也即活动栏）最下方的齿轮按钮，在弹出来的菜单中点选「用户代码片段」；
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+自定义React常用的代码片段  body内容用\n换行  $ {1：name}来指定新建后的鼠标位置（1参数：第几个指针，2参数：指针选择的内容）；
+``` bash
+  "Print to rapp": {
+    "prefix": "rapp",
+    "body": [
+      "import React from 'react'\n\nconst App = () => (\n  <div>$1\n  </div>\n)\n\nexport default App",
+      "$2"
+    ],
+    "description": "新建react模板"
+  },
+  "Print to rappc": {
+    "prefix": "rappc",
+    "body": [
+      "import React, { Component } from 'react';\n\nclass ${1:Name} extends Component{\n  static defaultProps={			\n  }\n\n  static propTypes = {\n  }\n\n  constructor(props) {\n    super(props)\n    this.state = {}\n  }\n  render(){\n    return (\n      <div>${2:Name}</div>\n    )\n  }\n}\n\nexport default ${3:Name}"
+    ],
+    "description": "新建react组件"
+  }
+```
+原文链接：https://blog.csdn.net/maokelong95/java/article/details/54379046
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT
+[前端蜗牛](http://adeng.vip)
+[adeng.y](http://1eng.vip)
