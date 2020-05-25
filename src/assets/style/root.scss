@@ -1,0 +1,167 @@
+$color-red: #ff3034;
+$color-border: #ededed;
+
+@mixin tov($x:1){
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $x;
+}
+
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+html {
+  font-size: 20px;
+  // 解决谷歌浏览器默认行为[Intervention] Unable to preventDefault inside passive event listener due to target being treated as passive. See <URL>
+  touch-action:none;
+}
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 21.33333333px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 22.08px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 25.6px !important;
+  }
+}
+
+body,
+button,
+dd,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body{
+  font-size: 0.6rem;
+  background: #fff;
+}
+
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #bbb9b9;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+address,
+cite,
+dfn,
+em,
+i,
+var {
+  font-style: normal;
+}
+
+strong {
+  font-weight: 700;
+}
+
+s {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+
+  &:visited {
+    color: #333;
+  }
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+select,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.panel{
+  background: #fff;
+  h3{
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: normal;
+    border-bottom: 1px solid #f6f7f8;
+  }
+  .panel-box{
+    padding: 0.5rem;
+  }
+}
