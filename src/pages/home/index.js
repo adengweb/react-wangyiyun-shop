@@ -6,6 +6,7 @@ import { Carousel } from 'antd-mobile';
 import WelfareItem from './component/welfare'
 import TopicsItem from './component/topicsItem'
 import HotProductItem from './component/hotProduct'
+import TabBarItem from './component/tabbar'
 
 import './style.scss'
 
@@ -62,14 +63,8 @@ class Index extends Component{
         </div>
         <HotProductItem></HotProductItem>
         
-        <div className="tab-bar">
-          <ul>
-            <li><i>icon</i>首页</li>
-            <li><i>icon</i>分类</li>
-            <li><i>icon</i>购物车</li>
-            <li><i>icon</i>我的</li>
-          </ul>
-        </div>
+        <TabBarItem></TabBarItem>
+        
       </div>
     )
   }
