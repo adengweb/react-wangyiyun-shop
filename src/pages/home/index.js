@@ -13,15 +13,34 @@ import './style.scss'
 class Index extends Component{
   state = {
     banners : [],
+    welfare: [],
+    gettopics: [],
+    hot: [],
     imgHeight : 176
   }
   componentDidMount() {
     document.title = config.CONFIG_TITLE.home
+
+    // 获取banner数据
     axios.get(`${config.BASE_URL}/banners`).then((res) => {
       console.log(res.data, 'banners')
-      this.setState({
-        banners : res.data
-      })
+      this.setState({ banners : res.data })
+    })
+    // welfare数据
+    axios.get(`${config.BASE_URL}/welfareInfo`).then((res) => {
+      console.log(res.data, 'welfareInfo')
+      this.setState({ welfare : res.data })
+    })
+    // gettopics数据
+    axios.get(`${config.BASE_URL}/gettopics`).then((res) => {
+      console.log(res.data, 'gettopics')
+      this.setState({ gettopics : res.data })
+    })
+    
+    // 获取hotProduct数据
+    axios.get(`${config.BASE_URL}/hotProduct`).then((res) => {
+      console.log(res.data, 'hotProduct')
+      this.setState({hot : res.data })
     })
   }
   render(){
@@ -50,20 +69,19 @@ class Index extends Component{
           <h3>签到领云贝</h3>
           <div className="panel-box">
             <div className="info">
-              <h4>我的云贝 <span className="val"><i></i> 562</span></h4>
+              <h4>我的云贝 <span className="val"><i className="iconfont icon-beike"></i> 562</span></h4>
               <p>兑换福利 </p>
             </div>
             <div className="sign">签到</div>
           </div>
         </div>
-        <WelfareItem></WelfareItem>
+        <WelfareItem welfareData = {this.state.welfare} />
         <div className="topics">
-          <TopicsItem></TopicsItem>
-          <TopicsItem></TopicsItem>
+          <TopicsItem gettopicsData = {this.state.gettopics} />
         </div>
-        <HotProductItem></HotProductItem>
+        <HotProductItem  hotProductData = {this.state.hot}  />
         
-        <TabBarItem></TabBarItem>
+        <TabBarItem />
         
       </div>
     )

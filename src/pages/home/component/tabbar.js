@@ -16,10 +16,10 @@ class TabBarItem extends Component{
     return (
       <div className="tab-bar">
           <ul>
-            <li><i>icon</i>首页</li>
-            <li><i>icon</i>分类</li>
-            <li><i>icon</i>购物车</li>
-            <li><i>icon</i>我的</li>
+            <li><i className="iconfont icon-sousuo1"></i>搜索</li>
+            <li><i className="iconfont icon-fenlei"></i>分类</li>
+            <li><i className="iconfont icon-gouwuche"></i>购物车</li>
+            <li><i className="iconfont icon-wode"></i>我的</li>
           </ul>
         </div>
     )

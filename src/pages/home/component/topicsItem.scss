@@ -5,7 +5,8 @@
   .tit{
     padding: 3rem 0 1.6rem 0;
     text-align: center;
-    background: url(http://p1.music.126.net/G3K1g0dui568C43r0ja_dw==/109951163867620729.webp) no-repeat;
+    // background: url(http://p1.music.126.net/G3K1g0dui568C43r0ja_dw==/109951163867620729.webp) no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     h4{
       font-size: 0.9rem;
@@ -32,6 +33,10 @@
     white-space: normal;
     width: 5rem;
     text-align: center;
+    a{
+      display: block;
+      padding: 0 0.5rem;
+    }
     h5{
       margin: 0.3rem 0;
       height: 1.5rem;
@@ -49,6 +54,25 @@
   }
   .pic{
     position: relative;
+    .buying{
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0.3rem;
+      text-align: center;
+      font-size: 0.5rem;
+      color: #fff;
+      background: #d33a31;
+      opacity: 0.9;
+      line-height: 1.1;
+      -webkit-transform: scale(0.8);
+      p{
+        color: #fff;
+        &.cost{
+          opacity: .8;
+        }
+      }
+    }
     img{
       width: 100%;
     }

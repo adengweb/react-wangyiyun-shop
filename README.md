@@ -72,6 +72,23 @@ class Comp{
 <input onChange = {this.onChange}>
 
 <input onChange = {()=>this.onChange(val)}>
+
+父组件向子组件传值
+
+// 父组件
+<ToggleButton hotProductData="Toggle me" />
+// 子组件
+constructor(props) {
+  super(props)
+  console.log(this.props.hotProductData)
+}
+
+本地存储 localStorage
+
+localStorage.setItem('user', JSON.stringify(user));  // 存储值：将对象转换为Json字符串
+var userJsonStr = localStorage.getItem('user');  // 取值时：把获取到的Json字符串转换回对象
+localStorage.removeItem("job");  // removeItem删除key
+localStorage.clear();  // clear清除所有的key/value
   
 ```
 
