@@ -16,10 +16,10 @@
 ## 服务启动
 
 ``` bash
+  启动API： json-server --watch --port 3200 db.json
+
   开发环境： yarn start
   打包环境： yarn build
-
-  启动API： json-server --watch --port 3200 db.json
 ```
 
 ## API

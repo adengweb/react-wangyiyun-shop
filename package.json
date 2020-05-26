@@ -70,7 +70,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "apibuild": "node scripts/APIbuild.js"
   },
   "eslintConfig": {
     "extends": "react-app"

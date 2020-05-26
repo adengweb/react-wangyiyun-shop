@@ -2,11 +2,12 @@ $color-red: #ff3034;
 $color-border: #ededed;
 
 @mixin tov($x:1){
-  max-width: 100%;
-  overflow: hidden;
+  display: -webkit-box;
   white-space: nowrap;
   text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
   -webkit-line-clamp: $x;
+  overflow: hidden;
 }
 
 
@@ -65,7 +66,6 @@ ul {
 
 body{
   font-size: 0.6rem;
-  background: #fff;
 }
 
 img {
@@ -154,10 +154,11 @@ textarea {
 }
 
 .panel{
+  margin-bottom: 0.5rem;
   background: #fff;
   h3{
-    padding: 0.4rem 0.5rem;
-    font-size: 0.75rem;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
     font-weight: normal;
     border-bottom: 1px solid #f6f7f8;
   }

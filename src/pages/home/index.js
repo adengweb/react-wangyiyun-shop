@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import { Carousel } from 'antd-mobile';
 import axios from 'axios';
+import * as config from '../../config'
+import { Carousel } from 'antd-mobile';
+
+import WelfareItem from './component/welfare'
+import TopicsItem from './component/topicsItem'
+import HotProductItem from './component/hotProduct'
+
 import './style.scss'
 
 class Index extends Component{
@@ -9,8 +15,9 @@ class Index extends Component{
     imgHeight : 176
   }
   componentDidMount() {
-    axios.get('http://localhost:3200/banners').then((res) => {
-      console.log(res.data,'banners')
+    document.title = config.CONFIG_TITLE.home
+    axios.get(`${config.BASE_URL}/banners`).then((res) => {
+      console.log(res.data, 'banners')
       this.setState({
         banners : res.data
       })
@@ -27,6 +34,7 @@ class Index extends Component{
           {this.state.banners.map((val,index) => (
               <img
                 src={val.picStr}
+                alt=""
                 key={index}
                 onLoad={() => {
                   // fire window resize event to change height
@@ -37,12 +45,23 @@ class Index extends Component{
           ))}
         </Carousel>
         </div>
-        <div className="panel">
+        <div className="panel sign-box">
           <h3>签到领云贝</h3>
           <div className="panel-box">
-            111111111
+            <div className="info">
+              <h4>我的云贝 <span className="val"><i></i> 562</span></h4>
+              <p>兑换福利 </p>
+            </div>
+            <div className="sign">签到</div>
           </div>
         </div>
+        <WelfareItem></WelfareItem>
+        <div className="topics">
+          <TopicsItem></TopicsItem>
+          <TopicsItem></TopicsItem>
+        </div>
+        <HotProductItem></HotProductItem>
+        
         <div className="tab-bar">
           <ul>
             <li><i>icon</i>首页</li>

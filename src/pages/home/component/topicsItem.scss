@@ -1,0 +1,56 @@
+.topics_item{
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  background: #fff;
+  .tit{
+    padding: 3rem 0 1.6rem 0;
+    text-align: center;
+    background: url(http://p1.music.126.net/G3K1g0dui568C43r0ja_dw==/109951163867620729.webp) no-repeat;
+    background-size: cover;
+    h4{
+      font-size: 0.9rem;
+      font-weight: normal;
+    }
+    p{
+      padding-top: 0.4rem;
+      color: #999;
+    }
+  }
+  .list{
+    height: 7.5rem;
+    padding: 0 .5rem;
+    position: relative;
+  }
+  ul{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch
+  }
+  li{
+    display: inline-block;
+    white-space: normal;
+    width: 5rem;
+    text-align: center;
+    h5{
+      margin: 0.3rem 0;
+      height: 1.5rem;
+      line-height: .75rem;
+      font-weight: normal;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    p{
+      color: #d33a31;
+    }
+  }
+  .pic{
+    position: relative;
+    img{
+      width: 100%;
+    }
+  }
+}

@@ -2,6 +2,41 @@
   .slider-decorator-0{
     bottom: 10px !important;
   }
+  .sign-box{
+    .panel-box{
+      position: relative;
+      display: flex;
+      justify-content:flex-end;
+      align-items: center;
+      padding: 1rem 0.5rem;
+    }
+    .info{
+      flex: 1;
+      h4{
+        font-size: 0.8rem;
+        font-weight: normal;
+        .val{
+          font-size: 0.8rem;
+          font-weight: bold;
+          color: #d33a31;
+        }
+      }
+      p{
+        padding-top: 0.2rem;
+        color: #999;
+      }
+    }
+    .sign{
+      width: 4rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      font-size: 0.7rem;
+      color: #d33a31;
+      border: 1px solid #d33a31;
+      text-align: center;
+      border-radius: 1rem;
+    }
+  }
 }
 .tab-bar{
   height: 50px;
@@ -15,6 +50,7 @@
     border-top: 1px solid #f6f7f8;
     display: flex;
     text-align: center;
+    z-index: 99;
     li{
       flex: 1;
       font-size: 12px;

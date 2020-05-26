@@ -1,0 +1,75 @@
+.welfare-box{
+  .item{
+    display: flex;
+    border-bottom: 1px solid #f6f7f8;
+    .pic{
+      width: 5.2rem;
+      img{
+        width: 100%;
+      }
+    }
+    .cnt{
+      position: relative;
+      flex: 1;
+      padding-left: 0.5rem;
+      .tit{
+        font-size: 0.7rem;
+        margin: 0.4rem 0;
+        line-height: 1.1rem;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        .tag{
+          position: relative;
+          top: -1px;
+          margin-right: .3rem;
+          margin-left: 0.1rem;
+          font-size: 12px;
+          color: #d33a31;
+          &:after{
+            position: absolute;
+            z-index: 10;
+            content: '';
+            top: 0;
+            left: -10%;
+            width: 236%;
+            height: 200%;
+            pointer-events: none;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+            -webkit-transform-origin: top left;
+            transform-origin: top left;
+            border: 1px solid #d33a31;
+          }
+        }
+      }
+      .price{
+        position: absolute;
+        bottom: 0.75rem;
+        left: 0.5rem;
+        right: 0;
+        .welfare{
+          font-size: 0.65rem;
+          span{
+            color: #d33a31;
+          }
+          .price_welfare{
+            font-size: 1rem;
+            em{
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .oprice{
+          display: flex;
+          justify-content: space-between;
+          color: #999;
+        }
+      }
+    }
+  }
+}
