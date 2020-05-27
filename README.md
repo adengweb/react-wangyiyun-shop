@@ -35,6 +35,10 @@ http://localhost:3200/searchConfigKey  //搜索关键字
   
 ```
 
+## 图片展示
+
+<img src="http://1eng.vip/wangyiyun-shop-img/gerenzhongxin.png" />
+
 ## Project issue
 
 ``` bash
