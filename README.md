@@ -29,7 +29,9 @@ http://localhost:3200/user  // 用户数据
 http://localhost:3200/welfareInfo  // 用户福利社 需要用户status = 1展示
 http://localhost:3200/banners   // 首页banner
 http://localhost:3200/hotProduct   // 热门推荐
-http://localhost:3200/gettopics   // 分类
+http://localhost:3200/gettopics   // 首页分类
+http://localhost:3200/categoryList  // 分类
+http://localhost:3200/searchConfigKey  //搜索关键字
   
 ```
 

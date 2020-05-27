@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Toast } from 'antd-mobile'
+import { Toast, Drawer } from 'antd-mobile'
 import * as config from '../../../config'
 
 import '../account.scss'
@@ -7,12 +7,28 @@ import '../account.scss'
 class Login extends Component{
   state = {
     username: '',
-    password: ''
+    password: '',
+    open: false,
   }
   componentDidMount() {
     document.title = config.CONFIG_TITLE.login
   }
   render(){
+    let drawerStyle = {}
+    if(!this.state.open){
+      drawerStyle = {
+        position: 'relative',
+        overflow: 'auto'
+      }
+    }else{
+      drawerStyle = {}
+    }
+    const sidebar = (
+      <div className="agreement-drawer">
+        <div className="tit">服务协议</div>
+        <div className="cnt">蚂蚁金服（以下或称“我们”）尊重并保护您的隐私。在您使用蚂蚁金服旗下公司的各项服务（例如：花呗、蚂蚁借呗、财富平台服务、保险平台服务、蚂蚁森林、蚂蚁庄园、蚂上租租房等)时，相关服务提供方将按照蚂蚁金服隐私权政策（以下简称“本政策”）收集、存储、使用及对外提供您的个人信息。同时，我们会通过本政策向您说明，我们如何为您提供访问、更新、管理和保护您的信息的服务。</div>
+      </div>
+    );
     return (
       <div className="login">
         <div className="logo"><i className="iconfont icon-musiccloud"></i></div>
@@ -23,6 +39,16 @@ class Login extends Component{
         <div className="box-btn">
           <div className="btn" onClick={()=>this.handleClickLogin()}>登录</div>
         </div>
+        <span className="agreement" onClick={()=>this.onOpenChange()}>服务协议</span>
+        <Drawer
+          className="my-drawer"
+          position='bottom'
+          enableDragHandle
+          style={drawerStyle}
+          sidebar={sidebar}
+          open={this.state.open}
+          onOpenChange={()=>this.onOpenChange()}
+        > </Drawer>
       </div>
     )
   }
@@ -53,6 +79,10 @@ class Login extends Component{
     setTimeout(() => {
       window.location.href="/"
     }, 2000);
+  }
+  // 协议弹窗
+  onOpenChange() {
+    this.setState({ open: !this.state.open });
   }
 }
 

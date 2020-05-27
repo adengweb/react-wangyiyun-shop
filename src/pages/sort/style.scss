@@ -1,0 +1,33 @@
+.sort{
+  .category{
+    margin-bottom: 0.6rem;
+    background: #fff;
+    .title{
+      padding: 0.6rem 0;
+      font-size: 0.8rem;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: 25%;
+    }
+    .item{
+      display: block;
+      padding: 0.6rem 0.5rem;
+      text-align: center;
+      .pic{
+        img{
+          width: 100%;
+        }
+      }
+      p{
+        padding-top: 0.4rem;
+        font-size: 0.65rem;
+      }
+    }
+  }
+}

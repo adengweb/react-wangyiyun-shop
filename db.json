@@ -2101,6 +2101,233 @@
       "subColumnTitle": "戳这里更多超值单品"
     }
   ],
+  "categoryList":[
+    {
+      "db_create_time": 1590593124574,
+      "id": 0,
+      "categoryId": 101000,
+      "category1Name": "数码影音",
+      "sub": [
+        {
+          "id": 1005000,
+          "name": "耳机耳麦",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/S_cRDMQXAZ8QIcSB0HbchQ==/109951163391888693.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1007000,
+          "name": "数码配件",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/vGKw9ELp1HyCWz_97-GNQw==/109951163391921913.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1006000,
+          "name": "播放器",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/c2zEIKCmKGJhFYj2DxalLA==/19171084742254642.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 2028000,
+          "name": "智能设备",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/hf-dqM0QLgsrZfUtU95WNg==/109951164175329048.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1009006,
+          "name": "音箱音响",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/R8KXnSSB3yGCNVsec4Yj-g==/109951163391906283.jpg",
+          "subs": [
+            
+          ]
+        }
+      ],
+      "url": null,
+      "picId": 0,
+      "picStr": null,
+      "db_update_time": 1590592915152,
+      "picId2": null
+    },
+    {
+      "db_create_time": 1590593124574,
+      "id": 0,
+      "categoryId": 1008002,
+      "category1Name": "IP周边",
+      "sub": [
+        {
+          "id": 2020000,
+          "name": "云村吉祥物",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/kzJ5HnRpgzrtkX4yaK2WOA==/109951163353602976.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1010004,
+          "name": "大热IP周边",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/-UBaEkMEKiGUbKfTOD6vBg==/109951163353594019.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1009002,
+          "name": "音乐人周边",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/8HhC53eObTSxfzgkETtzWA==/109951163353585932.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1008003,
+          "name": "图书音像",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/Ef36VcyM2TpkHM3JHdBAZA==/109951163353590232.jpg",
+          "subs": [
+            
+          ]
+        }
+      ],
+      "url": null,
+      "picId": 0,
+      "picStr": null,
+      "db_update_time": 1590592915152,
+      "picId2": null
+    },
+    {
+      "db_create_time": 1590593124574,
+      "id": 0,
+      "categoryId": 1002000,
+      "category1Name": "服饰配件",
+      "sub": [
+        {
+          "id": 1008000,
+          "name": "服装",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/4FcoSYjDOyFQ0-mihLqQtA==/109951165019471518.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1009000,
+          "name": "包袋",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/uZnp2jWhmXzX5nrrdxOWwQ==/109951165019470050.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1007002,
+          "name": "配件",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/UVktQQjtUZ_RV59QCCHC4g==/109951165019469076.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 3678200,
+          "name": "居家内搭",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/l4fBOBki73ZSHlMK0YcRRA==/109951165019471547.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 3678201,
+          "name": "旅行户外",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/yn5CKA4UacHvGkJK7CUOEg==/109951164594202262.jpg",
+          "subs": [
+            
+          ]
+        }
+      ],
+      "url": null,
+      "picId": 0,
+      "picStr": null,
+      "db_update_time": 1590592915152,
+      "picId2": null
+    },
+    {
+      "db_create_time": 1590593124574,
+      "id": 0,
+      "categoryId": 1005001,
+      "category1Name": "百货",
+      "sub": [
+        {
+          "id": 3677200,
+          "name": "居家物品",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/f6Z1Uv9cFW7i-iKjWtqVBg==/109951164594112937.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1005002,
+          "name": "雨伞",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/VdVmYom5vOQTC1fr7WqyQw==/109951165020010450.jpg",
+          "subs": [
+            
+          ]
+        },
+        {
+          "id": 1007003,
+          "name": "杯子",
+          "hint": null,
+          "picUrl": "http://p1.music.126.net/8-yKbkgilQswSiJ4oYnwzg==/109951165020018228.jpg",
+          "subs": [
+            
+          ]
+        }
+      ],
+      "url": null,
+      "picId": 0,
+      "picStr": null,
+      "db_update_time": 1590592915152,
+      "picId2": null
+    }
+  ],
+  "searchConfigKey":{
+    "defaultKey": "真无线耳机",
+    "configKey": [
+      {
+        "1": "享乐"
+      },
+      {
+        "2": "造乐"
+      },
+      {
+        "3": "玩乐"
+      },
+      {
+        "4": "蓝牙"
+      },
+      {
+        "5": "耳机"
+      }
+    ]
+  },
   "xxxxxx": [
 
   ],
