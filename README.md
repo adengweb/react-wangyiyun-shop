@@ -11,6 +11,7 @@
   axios  //  使用Promise管理异步的http库
   redux   // 状态管理模式   npm install redux
   JSON-server   // 启动API服务器
+  iconfont
 ```
 
 ## 服务启动
@@ -37,7 +38,13 @@ http://localhost:3200/searchConfigKey  //搜索关键字
 
 ## 图片展示
 
-<img src="http://1eng.vip/wangyiyun-shop-img/gerenzhongxin.png" />
+
+<div style="display: flex;flex-wrap: wrap;">
+  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/shouye.png" /><p>首页</p></div>
+  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/fenlei.png" /><p>分类</p></div>
+  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/denglu.png" /><p>登录</p></div>
+  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/gerenzhongxin.png" /><p>个人中心</p></div>
+</div>
 
 ## Project issue
 
