@@ -39,7 +39,7 @@ function Item(props) {
                 <img src={v.coverUrl +"?imageView&thumbnail=200x0&quality=75&tostatic=0&type=webp"} alt={v.name} />
                 {v.originalCost > v.minPrice ? <div className="buying">
                 <p className="min">￥{v.minPrice}</p><p className="cost"><del>￥{v.originalCost}</del></p>
-                </div> : ''}
+                </div> : null}
               </div>
               <h5>{v.name}</h5>
               <p>￥{v.minPrice}</p>

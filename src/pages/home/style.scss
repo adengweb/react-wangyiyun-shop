@@ -40,6 +40,10 @@
       border: 1px solid #d33a31;
       text-align: center;
       border-radius: 1rem;
+      &.over{
+        color: #999;
+        border-color: #999;
+      }
     }
   }
 }

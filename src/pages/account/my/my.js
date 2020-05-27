@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as config from '../../../config'
 
 class My extends Component{
   constructor(props) {
@@ -6,6 +7,8 @@ class My extends Component{
     this.state = {}
   }
   componentDidMount(){
+    document.title = config.CONFIG_TITLE.acctountMy
+
     var token = localStorage.getItem('token');
     console.log(token, '=====>token')
     if(!token){

@@ -3,5 +3,15 @@ export const BASE_URL = process.env.NODE_ENV === 'production'? 'https://music.16
 
 //配置title
 export const CONFIG_TITLE = {
-  home : '云音乐商城 - 音乐购有趣'
+  home : '云音乐商城 - 音乐购有趣',
+  login: '登录 - 云音乐商城',
+  acctountMy: '个人中心',
+  acctountAddress: '我的收货地址',
+  acctountCoupon: '我的优惠券',
+  acctountLive: '我想看的演出',
+  acctountOrder: '订单中心',
+  search: '搜索',
+  sort: '分类',
+  cart: '购物车',
+  acctountMy11: '个人中心'
 };

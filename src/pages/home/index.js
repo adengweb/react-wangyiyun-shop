@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import * as config from '../../config'
-import { Carousel } from 'antd-mobile';
+import { Carousel, Toast } from 'antd-mobile';
 
 import WelfareItem from './component/welfare'
 import TopicsItem from './component/topicsItem'
@@ -12,6 +12,8 @@ import './style.scss'
 
 class Index extends Component{
   state = {
+    token: '',
+    user: {},
     banners : [],
     welfare: [],
     gettopics: [],
@@ -20,17 +22,33 @@ class Index extends Component{
   }
   componentDidMount() {
     document.title = config.CONFIG_TITLE.home
+
+    // 默认未签到-存入localStorage
+    localStorage.setItem("signStatus", localStorage.getItem('signStatus') || 0)
+    this.setState({ signStatus : localStorage.getItem('signStatus') })
+
+    // 用户数据，当有token的时候在去请求
+    var token = localStorage.getItem('token');
+    this.setState({ token : token })
+    console.log(token, '=====>token')
+    if(token){
+      axios.get(`${config.BASE_URL}/user`).then((res) => {
+        console.log(res.data, 'user')
+        this.setState({ user : res.data })
+      })
+      // welfare数据
+      axios.get(`${config.BASE_URL}/welfareInfo`).then((res) => {
+        // console.log(res.data, 'welfareInfo')
+        this.setState({ welfare : res.data })
+      })
+    }
     
     // 获取banner数据
     axios.get(`${config.BASE_URL}/banners`).then((res) => {
       // console.log(res.data, 'banners')
       this.setState({ banners : res.data })
     })
-    // welfare数据
-    axios.get(`${config.BASE_URL}/welfareInfo`).then((res) => {
-      // console.log(res.data, 'welfareInfo')
-      this.setState({ welfare : res.data })
-    })
+    
     // gettopics数据
     axios.get(`${config.BASE_URL}/gettopics`).then((res) => {
       // console.log(res.data, 'gettopics')
@@ -69,13 +87,13 @@ class Index extends Component{
           <h3>签到领云贝</h3>
           <div className="panel-box">
             <div className="info">
-              <h4>我的云贝 <span className="val"><i className="iconfont icon-beike"></i> 562</span></h4>
+              <h4>我的云贝 <span className="val"><i className="iconfont icon-beike"></i> {this.state.user.balance || '--'}</span></h4>
               <p>兑换福利 <i className="iconfont icon-right1"></i></p>
             </div>
-            <div className="sign">签到</div>
+            <div className={ `sign ${this.state.signStatus == 1 ? 'over' : null}`} onClick={()=>this.handleClickSign()}>{this.state.signStatus == 1 ? '已签到' : '签到'}</div>
           </div>
         </div>
-        <WelfareItem welfareData = {this.state.welfare} />
+        {this.state.welfare.length > 0 ? <WelfareItem welfareData = {this.state.welfare} /> : null}
         <div className="topics">
           <TopicsItem gettopicsData = {this.state.gettopics} />
         </div>
@@ -85,6 +103,19 @@ class Index extends Component{
         
       </div>
     )
+  }
+
+  //签到
+  handleClickSign(){
+    if(!this.state.token){
+      Toast.info('您还未登录~', 2);
+      return false
+    }
+    if(this.state.signStatus == 0){
+      this.setState({signStatus: 1})
+      Toast.success('恭喜，签到成功', 2);
+      localStorage.setItem("signStatus", 1)
+    }
   }
 }
 

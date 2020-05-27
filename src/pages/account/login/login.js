@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Toast } from 'antd-mobile'
+import * as config from '../../../config'
 
 import '../account.scss'
 
@@ -7,6 +8,9 @@ class Login extends Component{
   state = {
     username: '',
     password: ''
+  }
+  componentDidMount() {
+    document.title = config.CONFIG_TITLE.login
   }
   render(){
     return (
@@ -47,7 +51,7 @@ class Login extends Component{
     localStorage.setItem('token', 'token_dsajkXjksadjskHioiowmk')
     Toast.success('登录成功', 2);
     setTimeout(() => {
-      window.location.href="/account/my"
+      window.location.href="/"
     }, 2000);
   }
 }

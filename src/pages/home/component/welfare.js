@@ -14,7 +14,7 @@ class WelfareItem extends Component{
               <div className="item" key={item.productId}>
                 <div className="pic"><img src={item.picUrl} alt={item.productName} /></div>
                 <div className="cnt">
-                  <p className="tit">{item.tags != '' ? <i className="tag">{item.tags[0]}</i> : null}{item.productName}</p>
+                  <p className="tit">{item.tags.length > 0 ? <i className="tag">{item.tags[0]}</i> : null}{item.productName}</p>
                   <div className="price">
                     <p className="welfare">福利价<span className="price_welfare"><em>￥</em>{item.welfarePrice}</span><span className="balance"> + <i className="iconfont icon-beike"></i> {item.point}</span></p>
                     <p className="oprice"><span>原价 ￥{item.oriPrice}</span><span>限量{item.welfareNum}件</span></p>
