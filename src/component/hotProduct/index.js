@@ -12,7 +12,7 @@ class hotProduct extends Component{
           <ul>
             {hotProductData.map((item,index) => (
               <li key={item.id}>
-                <a href="detail/" className="item">
+                <a href="/detail" className="item">
                   <div className="pic">
                     <img src={item.products.coverUrl+"?imageView&thumbnail=346x0&quality=75&tostatic=0&type=webp"} alt={item.name} />
                     <div className="buying">

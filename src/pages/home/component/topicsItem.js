@@ -34,7 +34,7 @@ function Item(props) {
       {
         item.map(v =>(
           <li key={v.stock}>
-            <a href="detail/">
+            <a href="/detail">
               <div className="pic">
                 <img src={v.coverUrl +"?imageView&thumbnail=200x0&quality=75&tostatic=0&type=webp"} alt={v.name} />
                 {v.originalCost > v.minPrice ? <div className="buying">
