@@ -36,16 +36,6 @@ http://localhost:3200/searchConfigKey  //搜索关键字
   
 ```
 
-## 图片展示
-
-
-<div style="display: flex;flex-wrap: wrap;">
-  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/shouye.png" /><p>首页</p></div>
-  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/fenlei.png" /><p>分类</p></div>
-  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/denglu.png" /><p>登录</p></div>
-  <div style="flex: 1; width: 33%;"><img src="http://1eng.vip/wangyiyun-shop-img/gerenzhongxin.png" /><p>个人中心</p></div>
-</div>
-
 ## Project issue
 
 ``` bash
@@ -129,6 +119,13 @@ localStorage.clear();  // clear清除所有的key/value
   }
 ```
 原文链接：https://blog.csdn.net/maokelong95/java/article/details/54379046
+
+## 图片展示
+
+<img src="http://1eng.vip/wangyiyun-shop-img/shouye.png" />首页
+<img src="http://1eng.vip/wangyiyun-shop-img/fenlei.png" />分类
+<img src="http://1eng.vip/wangyiyun-shop-img/denglu.png" />登录
+<img src="http://1eng.vip/wangyiyun-shop-img/gerenzhongxin.png" />个人中心
 
 ## License
 
