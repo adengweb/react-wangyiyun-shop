@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route ,Switch } from 'react-router-dom'
 
 import Home from './pages/home'
 import Search from './pages/search'
@@ -16,14 +16,16 @@ class App extends Component{
     return (
       <Router>
         <div className="mod-pages">
-          <Route exact path="/" component={Home}></Route>
-          <Route path="/detail" component={Detail}></Route>
-          <Route path="/search" component={Search}></Route>
-          <Route path="/sort" component={Sort}></Route>
-          <Route path="/cart" component={Cart}></Route>
-          <Route path="/login" component={Login}></Route>
-          <Route path="/account/my" component={My}></Route>
-          {/* <Route path="/Cart" component={Cart}></Route> */}
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/detail" component={Detail}></Route>
+            <Route path="/search" component={Search}></Route>
+            <Route path="/sort" component={Sort}></Route>
+            <Route path="/cart" component={Cart}></Route>
+            <Route path="/login" component={Login}></Route>
+            <Route path="/account/my" component={My}></Route>
+            {/* <Route path="/Cart" component={Cart}></Route> */}
+          </Switch>
         </div>
       </Router>
     )

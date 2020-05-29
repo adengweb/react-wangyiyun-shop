@@ -113,7 +113,7 @@ localStorage.clear();  // clear清除所有的key/value
   "Print to rappc": {
     "prefix": "rappc",
     "body": [
-      "import React, { Component } from 'react';\n\nclass ${1:Name} extends Component{\n  static defaultProps={			\n  }\n\n  static propTypes = {\n  }\n\n  constructor(props) {\n    super(props)\n    this.state = {}\n  }\n  render(){\n    return (\n      <div>${2:Name}</div>\n    )\n  }\n}\n\nexport default ${3:Name}"
+      "import React, { Component } from 'react';\n\nclass ${1:Name} extends Component{\n  state = {\n  }\n  componentDidMount(){\n  }\n  render(){\n    return (\n      <div>${2:Name}</div>\n    )\n  }\n}\n\nexport default ${3:Name}"
     ],
     "description": "新建react组件"
   }

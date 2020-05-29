@@ -26,6 +26,24 @@ class Index extends Component{
     // 默认未签到-存入localStorage
     localStorage.setItem("signStatus", localStorage.getItem('signStatus') || 0)
     this.setState({ signStatus : localStorage.getItem('signStatus') })
+    // 判断是不是同一天，不是就重设为签到TODO
+    let d = new Date(),
+        h = d.getHours(),
+        m = d.getMinutes(),
+        s = d.getSeconds()
+    // var signTime = JSON.parse(localStorage.getItem('signTime'))
+    // console.log(signTime)
+    let time = new Date().getTime()
+    // console.log(signTime, '<===上一次签到时间=',time, '<===当前签到时间==' , Math.floor((time - signTime) / 24 / 3600) , '<===已经签到xxx分钟');
+    // console.log((time - signTime) / 24 / 3600);
+    // console.log(Math.floor((time - signTime) / 24 / 3600));
+    // 如果分钟大于1440分钟(一天),就重设签到
+    // if(Math.floor((time - signTime) / 24 / 3600) > 1440){
+    //   localStorage.setItem("signStatus", 0)
+    // }
+    if(h == 0 && m == 0 && s == 0){
+      localStorage.setItem("signStatus", 0)
+    }
 
     // 用户数据，当有token的时候在去请求
     var token = localStorage.getItem('token');
@@ -111,10 +129,18 @@ class Index extends Component{
       Toast.info('您还未登录~', 2);
       return false
     }
+    
     if(this.state.signStatus == 0){
+      // let y = (new Date()).getFullYear()
+      // let m = ((new Date()).getMonth()+1) < 10 ? '0' + ((new Date()).getMonth()+1) : ((new Date()).getMonth()+1)
+      // let d = (new Date()).getDate() < 10 ? '0' + (new Date()).getDate() : (new Date()).getDate()
+      // let time = y+m+d;
+      let time = new Date().getTime()
+      
       this.setState({signStatus: 1})
       Toast.success('恭喜，签到成功', 2);
       localStorage.setItem("signStatus", 1)
+      localStorage.setItem("signTime", time)
     }
   }
 }
