@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Item2Row from '../Item2Row/'
 import './hotProduct.scss'
 
 class hotProduct extends Component{
@@ -10,7 +11,8 @@ class hotProduct extends Component{
         <h3>{this.props.title}</h3>
         <div className="panel-box">
           <ul>
-            {hotProductData.map((item,index) => (
+            <Item2Row lists={hotProductData}></Item2Row>
+            {/* {hotProductData.map((item,index) => (
               <li key={item.id}>
                 <a href="/detail" className="item">
                   <div className="pic">
@@ -24,7 +26,7 @@ class hotProduct extends Component{
                   <p>￥{item.products.minPrice}</p>
                 </a>
               </li>
-            ))}
+            ))} */}
           </ul>
         </div>
       </div>

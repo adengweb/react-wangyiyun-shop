@@ -153,6 +153,22 @@ textarea {
   display: block;
 }
 
+.none-tips{
+  height: 40vh;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  text-align: center;
+  color: #999;
+  font-size: .7rem;
+  .iconfont{
+    padding-bottom: 1rem;
+    font-size: 3.2rem;
+    color: #ccc;
+  }
+}
+
 .panel{
   margin-bottom: 0.5rem;
   background: #fff;

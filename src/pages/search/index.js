@@ -14,9 +14,7 @@ class Search extends Component{
   }
   componentDidMount(){
     document.title = config.CONFIG_TITLE.search
-
-    const start = new Date(new Date(new Date().toLocaleDateString()).getTime()+24*60*60*1000-1);
-    console.log(start);
+    
 
     //获取搜索历史记录
     // localStorage.setItem('searchHistory', JSON.stringify(['TODO']))

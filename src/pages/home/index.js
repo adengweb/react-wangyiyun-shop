@@ -41,6 +41,7 @@ class Index extends Component{
     // if(Math.floor((time - signTime) / 24 / 3600) > 1440){
     //   localStorage.setItem("signStatus", 0)
     // }
+    //Mon Dec 04 2017 23:59:59
     if(h == 0 && m == 0 && s == 0){
       localStorage.setItem("signStatus", 0)
     }
