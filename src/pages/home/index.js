@@ -23,60 +23,44 @@ class Index extends Component{
   componentDidMount() {
     document.title = config.CONFIG_TITLE.home
 
+    //获取全局挂载的axios封装方法
+    // console.log(React.$api)
+
     // 默认未签到-存入localStorage
     localStorage.setItem("signStatus", localStorage.getItem('signStatus') || 0)
     this.setState({ signStatus : localStorage.getItem('signStatus') })
-    // 判断是不是同一天，不是就重设为签到TODO
-    let d = new Date(),
-        h = d.getHours(),
-        m = d.getMinutes(),
-        s = d.getSeconds()
-    // var signTime = JSON.parse(localStorage.getItem('signTime'))
-    // console.log(signTime)
-    let time = new Date().getTime()
-    // console.log(signTime, '<===上一次签到时间=',time, '<===当前签到时间==' , Math.floor((time - signTime) / 24 / 3600) , '<===已经签到xxx分钟');
-    // console.log((time - signTime) / 24 / 3600);
-    // console.log(Math.floor((time - signTime) / 24 / 3600));
-    // 如果分钟大于1440分钟(一天),就重设签到
-    // if(Math.floor((time - signTime) / 24 / 3600) > 1440){
-    //   localStorage.setItem("signStatus", 0)
-    // }
-    //Mon Dec 04 2017 23:59:59
-    if(h == 0 && m == 0 && s == 0){
-      localStorage.setItem("signStatus", 0)
-    }
 
     // 用户数据，当有token的时候在去请求
     var token = localStorage.getItem('token');
     this.setState({ token : token })
     console.log(token, '=====>token')
     if(token){
-      axios.get(`${config.BASE_URL}/user`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/user`).then((res) => {
         console.log(res.data, 'user')
         this.setState({ user : res.data })
       })
       // welfare数据
-      axios.get(`${config.BASE_URL}/welfareInfo`).then((res) => {
-        // console.log(res.data, 'welfareInfo')
+      React.$api.Get(`${config.BASE_URL}/welfareInfo`).then((res) => {
+        console.log(res.data, 'welfareInfo')
         this.setState({ welfare : res.data })
       })
     }
     
     // 获取banner数据
-    axios.get(`${config.BASE_URL}/banners`).then((res) => {
-      // console.log(res.data, 'banners')
+    React.$api.Get(`${config.BASE_URL}/banners`,{}).then((res) => {
+      console.log(res.data, 'banners')
       this.setState({ banners : res.data })
     })
     
     // gettopics数据
-    axios.get(`${config.BASE_URL}/gettopics`).then((res) => {
-      // console.log(res.data, 'gettopics')
+    React.$api.Get(`${config.BASE_URL}/gettopics`,{}).then((res) => {
+      console.log(res.data, 'gettopics')
       this.setState({ gettopics : res.data })
     })
     
     // 获取hotProduct数据
-    axios.get(`${config.BASE_URL}/hotProduct`).then((res) => {
-      // console.log(res.data, 'hotProduct')
+    React.$api.Get(`${config.BASE_URL}/hotProduct`).then((res) => {
+      console.log(res.data, 'hotProduct')
       this.setState({hot : res.data })
     })
   }

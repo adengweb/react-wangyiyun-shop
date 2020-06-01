@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 
 class Detail extends Component{
-  static defaultProps={			
-  }
-
-  static propTypes = {
-  }
-
   constructor(props) {
     super(props)
+    console.log(this.props.location.query)
     this.state = {}
+  }
+  componentDidMount(){
   }
   render(){
     return (

@@ -6,64 +6,63 @@
   },
   "welfareInfo": [
     {
-        "welfareDetailId": 1908600,
-        "welfareMainId": 1342000,
-        "productId": "17847134",
-        "productName": "超轻运动蓝牙三键线控 3折热卖",
-        "oriPrice": "79",
-        "couponId": "6411320",
-        "welfarePrice": "19",
-        "point": 3,
-        "welfareNum": "250",
-        "picUrl": "http://p1.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg",
-        "notice": 0,
-        "orderPercent": 99,
-        "suggest": "轻巧运动 便捷线控",
-        "tags": [
-          "特价"
-        ]
-      },
-      {
-        "welfareDetailId": 1908601,
-        "welfareMainId": 1342000,
-        "productId": "17969029",
-        "productName": "热卖周边时尚加固加厚防晒晴雨伞",
-        "oriPrice": "149.9",
-        "couponId": "6414333",
-        "welfarePrice": "24.9",
-        "point": 3,
-        "welfareNum": "300",
-        "picUrl": "http://p1.music.126.net/vQJBb-LOvASs5rEGnXfJ9A==/109951164955660777.jpg",
-        "notice": 0,
-        "orderPercent": 92,
-        "suggest": "正版包邮 抄底价1天",
-        "tags": [
-          "包邮"
-        ]
-      },
-      {
-        "welfareDetailId": 1908602,
-        "welfareMainId": 1342000,
-        "productId": "21808800",
-        "productName": "红棉民谣木吉他40/41寸初学者入门电箱可选",
-        "oriPrice": "638",
-        "couponId": "6415307",
-        "welfarePrice": "388",
-        "point": 3,
-        "welfareNum": "20",
-        "picUrl": "http://p1.music.126.net/MvJtD4-TFJMewO3dZL3ORQ==/109951164948421736.jpg",
-        "notice": 0,
-        "orderPercent": 99,
-        "suggest": "53年匠心制造赠初学礼包",
-        "tags": [
-        ]
-      }
+      "welfareDetailId": 1908600,
+      "welfareMainId": 1342000,
+      "productId": "17847134",
+      "productName": "超轻运动蓝牙三键线控 3折热卖",
+      "oriPrice": "79",
+      "couponId": "6411320",
+      "welfarePrice": "19",
+      "point": 3,
+      "welfareNum": "250",
+      "picUrl": "http://p1.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg",
+      "notice": 0,
+      "orderPercent": 99,
+      "suggest": "轻巧运动 便捷线控",
+      "tags": [
+        "特价"
+      ]
+    },
+    {
+      "welfareDetailId": 1908601,
+      "welfareMainId": 1342000,
+      "productId": "17969029",
+      "productName": "热卖周边时尚加固加厚防晒晴雨伞",
+      "oriPrice": "149.9",
+      "couponId": "6414333",
+      "welfarePrice": "24.9",
+      "point": 3,
+      "welfareNum": "300",
+      "picUrl": "http://p1.music.126.net/vQJBb-LOvASs5rEGnXfJ9A==/109951164955660777.jpg",
+      "notice": 0,
+      "orderPercent": 92,
+      "suggest": "正版包邮 抄底价1天",
+      "tags": [
+        "包邮"
+      ]
+    },
+    {
+      "welfareDetailId": 1908602,
+      "welfareMainId": 1342000,
+      "productId": "21808800",
+      "productName": "红棉民谣木吉他40/41寸初学者入门电箱可选",
+      "oriPrice": "638",
+      "couponId": "6415307",
+      "welfarePrice": "388",
+      "point": 3,
+      "welfareNum": "20",
+      "picUrl": "http://p1.music.126.net/MvJtD4-TFJMewO3dZL3ORQ==/109951164948421736.jpg",
+      "notice": 0,
+      "orderPercent": 99,
+      "suggest": "53年匠心制造赠初学礼包",
+      "tags": []
+    }
   ],
   "banners": [
     {
       "id": 17753400,
       "productId": 0,
-      "picId": 109951165015714532,
+      "picId": 109951165015714530,
       "backendPicId": 0,
       "addTime": 100,
       "position": 1,
@@ -79,7 +78,7 @@
     {
       "id": 17753401,
       "productId": 0,
-      "picId": 109951165012110125,
+      "picId": 109951165012110130,
       "backendPicId": 0,
       "addTime": 100,
       "position": 2,
@@ -95,7 +94,7 @@
     {
       "id": 17753402,
       "productId": 0,
-      "picId": 109951165011405121,
+      "picId": 109951165011405120,
       "backendPicId": 0,
       "addTime": 100,
       "position": 3,
@@ -111,7 +110,7 @@
     {
       "id": 17753403,
       "productId": 0,
-      "picId": 109951165007767228,
+      "picId": 109951165007767230,
       "backendPicId": 0,
       "addTime": 100,
       "position": 4,
@@ -127,94 +126,94 @@
   ],
   "hotProduct": [
     {
-        "db_create_time": 1590427737626,
-        "id": 10004,
-        "name": "HT-08运动蓝牙耳机 安卓苹果通用",
-        "price": null,
-        "priceFilter": 1,
-        "productId": 17847134,
-        "resourceUrl": null,
-        "orderWeight": 1,
-        "products": {
-          "stock": 2896,
-          "saleNum": 0,
-          "sumMoney": null,
-          "skus": null,
-          "discount": null,
-          "pickUp": false,
-          "createTime": 1561360106007,
-          "priceType": 1,
-          "levelLimit": 0,
-          "vipLimit": false,
-          "allowDupBuy": true,
-          "extInfo": {
-            "albumId": 0,
-            "songId": 0,
-            "goodVipType": 0,
-            "quotaOfOrder": 0,
-            "extProductId": 0,
-            "extProductStatus": 0,
-            "extShelfStatus": 0,
-            "concertId": 0,
-            "buysingle": false,
-            "showStartProId": 0,
-            "needMessage": 0,
-            "preSale": 1,
-            "defaultMessage": "",
-            "tax": "0",
-            "albumSaleDisplayType": 0,
-            "restrict": 1,
-            "giftSet": 0
-          },
-          "specialType": 0,
-          "shopId": 84000,
-          "exchangeType": 0,
-          "useVipPrice": false,
-          "couponLabelFlag": 2,
-          "label": "爆款",
-          "category1": 101000,
-          "drawTime": 0,
-          "pubTime": 1561429724993,
-          "suggestWord": "3D立体声 佩戴舒适 狂甩不掉 三键线控 待机时间长 连续听歌5-7小时",
-          "category2": 1005000,
-          "brandName": "影巨人",
-          "alterStock": 0,
-          "statistics": 0,
-          "picUrls": [
-            "http://p4.music.126.net/x4jKtdv6HkvEMJD2u9nYBw==/109951164170761538.jpg",
-            "http://p4.music.126.net/rEQk58J6uggyRmWEXW172w==/109951164179229364.jpg",
-            "http://p3.music.126.net/0Y4zBm83xwm1lQW6fJbKgw==/109951164170702922.jpg",
-            "http://p3.music.126.net/DcpwuYi6P1ErnnMtU1SLNQ==/109951164170707752.jpg",
-            "http://p3.music.126.net/hljFF1wCozRf6aM7KLYkDA==/109951164170710695.jpg",
-            "http://p3.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg"
-          ],
-          "coverUrl": "http://p4.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg",
-          "coverIdStr": "109951164941875249",
-          "performanceTime": 0,
-          "couponLabelDesc": "用券减40",
-          "tags": [
-            "特价"
-          ],
-          "display": 0,
-          "status": 0,
-          "iap": false,
-          "picIds": [
-            "109951164170761538",
-            "109951164179229364",
-            "109951164170702922",
-            "109951164170707752",
-            "109951164170710695",
-            "109951164941875249"
-          ],
-          "name": "HT-08运动蓝牙耳机 3D立体声 三键线控 安卓苹果通用",
-          "id": 17847134,
-          "type": 2,
-          "minPrice": 59,
-          "originalCost": 79.00000,
-          "maxPrice": 59,
-          "alg": "featured"
+      "db_create_time": 1590427737626,
+      "id": 10004,
+      "name": "HT-08运动蓝牙耳机 安卓苹果通用",
+      "price": null,
+      "priceFilter": 1,
+      "productId": 17847134,
+      "resourceUrl": null,
+      "orderWeight": 1,
+      "products": {
+        "stock": 2896,
+        "saleNum": 0,
+        "sumMoney": null,
+        "skus": null,
+        "discount": null,
+        "pickUp": false,
+        "createTime": 1561360106007,
+        "priceType": 1,
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true,
+        "extInfo": {
+          "albumId": 0,
+          "songId": 0,
+          "goodVipType": 0,
+          "quotaOfOrder": 0,
+          "extProductId": 0,
+          "extProductStatus": 0,
+          "extShelfStatus": 0,
+          "concertId": 0,
+          "buysingle": false,
+          "showStartProId": 0,
+          "needMessage": 0,
+          "preSale": 1,
+          "defaultMessage": "",
+          "tax": "0",
+          "albumSaleDisplayType": 0,
+          "restrict": 1,
+          "giftSet": 0
         },
-        "db_update_time": 1590395696000
+        "specialType": 0,
+        "shopId": 84000,
+        "exchangeType": 0,
+        "useVipPrice": false,
+        "couponLabelFlag": 2,
+        "label": "爆款",
+        "category1": 101000,
+        "drawTime": 0,
+        "pubTime": 1561429724993,
+        "suggestWord": "3D立体声 佩戴舒适 狂甩不掉 三键线控 待机时间长 连续听歌5-7小时",
+        "category2": 1005000,
+        "brandName": "影巨人",
+        "alterStock": 0,
+        "statistics": 0,
+        "picUrls": [
+          "http://p4.music.126.net/x4jKtdv6HkvEMJD2u9nYBw==/109951164170761538.jpg",
+          "http://p4.music.126.net/rEQk58J6uggyRmWEXW172w==/109951164179229364.jpg",
+          "http://p3.music.126.net/0Y4zBm83xwm1lQW6fJbKgw==/109951164170702922.jpg",
+          "http://p3.music.126.net/DcpwuYi6P1ErnnMtU1SLNQ==/109951164170707752.jpg",
+          "http://p3.music.126.net/hljFF1wCozRf6aM7KLYkDA==/109951164170710695.jpg",
+          "http://p3.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg"
+        ],
+        "coverUrl": "http://p4.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg",
+        "coverIdStr": "109951164941875249",
+        "performanceTime": 0,
+        "couponLabelDesc": "用券减40",
+        "tags": [
+          "特价"
+        ],
+        "display": 0,
+        "status": 0,
+        "iap": false,
+        "picIds": [
+          "109951164170761538",
+          "109951164179229364",
+          "109951164170702922",
+          "109951164170707752",
+          "109951164170710695",
+          "109951164941875249"
+        ],
+        "name": "HT-08运动蓝牙耳机 3D立体声 三键线控 安卓苹果通用",
+        "id": 17847134,
+        "type": 2,
+        "minPrice": 59,
+        "originalCost": 79,
+        "maxPrice": 59,
+        "alg": "featured"
+      },
+      "db_update_time": 1590395696000
     },
     {
       "db_create_time": 1590427737626,
@@ -303,9 +302,9 @@
         "name": "网易云音乐·“筷”乐金属笔（2支套装）",
         "id": 18068024,
         "type": 2,
-        "minPrice": 19.90,
-        "originalCost": 32.90000,
-        "maxPrice": 19.90,
+        "minPrice": 19.9,
+        "originalCost": 32.9,
+        "maxPrice": 19.9,
         "alg": "featured"
       },
       "db_update_time": 1590395696000
@@ -394,7 +393,7 @@
         "id": 22054601,
         "type": 2,
         "minPrice": 39,
-        "originalCost": 59.00000,
+        "originalCost": 59,
         "maxPrice": 39,
         "alg": "featured"
       },
@@ -486,7 +485,7 @@
         "id": 17994022,
         "type": 2,
         "minPrice": 229,
-        "originalCost": 299.00000,
+        "originalCost": 299,
         "maxPrice": 229,
         "alg": "featured"
       },
@@ -578,7 +577,7 @@
         "id": 17994022,
         "type": 2,
         "minPrice": 29,
-        "originalCost": 125.00000,
+        "originalCost": 125,
         "maxPrice": 29,
         "alg": "featured"
       },
@@ -670,7 +669,7 @@
         "id": 17994022,
         "type": 2,
         "minPrice": 329,
-        "originalCost": 699.00000,
+        "originalCost": 699,
         "maxPrice": 329,
         "alg": "featured"
       },
@@ -818,7 +817,7 @@
           "id": 17847134,
           "type": 2,
           "minPrice": 59,
-          "originalCost": 79.00000,
+          "originalCost": 79,
           "maxPrice": 59
         },
         {
@@ -898,7 +897,7 @@
           "id": 11728001,
           "type": 2,
           "minPrice": 129,
-          "originalCost": 199.00000,
+          "originalCost": 199,
           "maxPrice": 129
         },
         {
@@ -976,7 +975,7 @@
           "id": 21838623,
           "type": 2,
           "minPrice": 399,
-          "originalCost": 499.00000,
+          "originalCost": 499,
           "maxPrice": 399
         },
         {
@@ -1001,9 +1000,7 @@
           "label": "",
           "couponLabelDesc": "用券减60",
           "createTime": 1585214271943,
-          "tags": [
-            
-          ],
+          "tags": [],
           "display": 0,
           "suggestWord": "[买一送一]高通蓝牙5.0；aptX无损解码；独特导声结构；24小时长续航；13mm大发声单元",
           "category2": 1005000,
@@ -1056,7 +1053,7 @@
           "id": 22003600,
           "type": 2,
           "minPrice": 318,
-          "originalCost": 318.00000,
+          "originalCost": 318,
           "maxPrice": 318
         },
         {
@@ -1138,7 +1135,7 @@
           "id": 18075000,
           "type": 2,
           "minPrice": 179,
-          "originalCost": 199.00000,
+          "originalCost": 199,
           "maxPrice": 179
         },
         {
@@ -1218,7 +1215,7 @@
           "id": 17994022,
           "type": 2,
           "minPrice": 229,
-          "originalCost": 299.00000,
+          "originalCost": 299,
           "maxPrice": 229
         }
       ],
@@ -1370,7 +1367,7 @@
           "id": 22019627,
           "type": 2,
           "minPrice": 49,
-          "originalCost": 159.00000,
+          "originalCost": 159,
           "maxPrice": 49
         },
         {
@@ -1452,7 +1449,7 @@
           "id": 21951621,
           "type": 2,
           "minPrice": 49,
-          "originalCost": 159.00000,
+          "originalCost": 159,
           "maxPrice": 49
         },
         {
@@ -1529,7 +1526,7 @@
           "id": 21780701,
           "type": 2,
           "minPrice": 45,
-          "originalCost": 79.00000,
+          "originalCost": 79,
           "maxPrice": 45
         },
         {
@@ -1598,7 +1595,7 @@
           "id": 11835003,
           "type": 2,
           "minPrice": 59,
-          "originalCost": 118.00000,
+          "originalCost": 118,
           "maxPrice": 59
         },
         {
@@ -1666,7 +1663,7 @@
           "id": 11830006,
           "type": 2,
           "minPrice": 49,
-          "originalCost": 98.00000,
+          "originalCost": 98,
           "maxPrice": 49
         },
         {
@@ -1689,9 +1686,7 @@
           "label": "",
           "couponLabelDesc": null,
           "createTime": 1573182840829,
-          "tags": [
-            
-          ],
+          "tags": [],
           "display": 0,
           "suggestWord": "",
           "category2": 1008003,
@@ -1743,7 +1738,7 @@
           "id": 21808659,
           "type": 2,
           "minPrice": 118,
-          "originalCost": 118.00000,
+          "originalCost": 118,
           "maxPrice": 118
         }
       ],
@@ -1893,7 +1888,7 @@
           "id": 11707001,
           "type": 2,
           "minPrice": 39,
-          "originalCost": 79.00000,
+          "originalCost": 79,
           "maxPrice": 39
         },
         {
@@ -1969,7 +1964,7 @@
           "id": 22011609,
           "type": 2,
           "minPrice": 21,
-          "originalCost": 63.00000,
+          "originalCost": 63,
           "maxPrice": 25
         },
         {
@@ -2045,7 +2040,7 @@
           "id": 22014625,
           "type": 2,
           "minPrice": 29,
-          "originalCost": 49.00000,
+          "originalCost": 49,
           "maxPrice": 29
         },
         {
@@ -2123,9 +2118,9 @@
           "name": "网易云音乐日式蒲扇",
           "id": 9155004,
           "type": 2,
-          "minPrice": 9.90,
-          "originalCost": 59.90000,
-          "maxPrice": 9.90
+          "minPrice": 9.9,
+          "originalCost": 59.9,
+          "maxPrice": 9.9
         },
         {
           "stock": 3325,
@@ -2200,7 +2195,7 @@
           "id": 21990603,
           "type": 2,
           "minPrice": 39,
-          "originalCost": 69.00000,
+          "originalCost": 69,
           "maxPrice": 39
         },
         {
@@ -2280,7 +2275,7 @@
           "id": 22055600,
           "type": 2,
           "minPrice": 39,
-          "originalCost": 99.00000,
+          "originalCost": 99,
           "maxPrice": 39
         }
       ],
@@ -2289,7 +2284,7 @@
       "subColumnTitle": "戳这里更多超值单品"
     }
   ],
-  "categoryList":[
+  "categoryList": [
     {
       "db_create_time": 1590593124574,
       "id": 0,
@@ -2301,45 +2296,35 @@
           "name": "耳机耳麦",
           "hint": null,
           "picUrl": "http://p1.music.126.net/S_cRDMQXAZ8QIcSB0HbchQ==/109951163391888693.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 18068024,
           "name": "数码配件",
           "hint": null,
           "picUrl": "http://p1.music.126.net/vGKw9ELp1HyCWz_97-GNQw==/109951163391921913.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 22054601,
           "name": "播放器",
           "hint": null,
           "picUrl": "http://p1.music.126.net/c2zEIKCmKGJhFYj2DxalLA==/19171084742254642.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 17994022,
           "name": "智能设备",
           "hint": null,
           "picUrl": "http://p1.music.126.net/hf-dqM0QLgsrZfUtU95WNg==/109951164175329048.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1009006,
           "name": "音箱音响",
           "hint": null,
           "picUrl": "http://p1.music.126.net/R8KXnSSB3yGCNVsec4Yj-g==/109951163391906283.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         }
       ],
       "url": null,
@@ -2359,36 +2344,28 @@
           "name": "云村吉祥物",
           "hint": null,
           "picUrl": "http://p1.music.126.net/kzJ5HnRpgzrtkX4yaK2WOA==/109951163353602976.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1010004,
           "name": "大热IP周边",
           "hint": null,
           "picUrl": "http://p1.music.126.net/-UBaEkMEKiGUbKfTOD6vBg==/109951163353594019.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1009002,
           "name": "音乐人周边",
           "hint": null,
           "picUrl": "http://p1.music.126.net/8HhC53eObTSxfzgkETtzWA==/109951163353585932.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1008003,
           "name": "图书音像",
           "hint": null,
           "picUrl": "http://p1.music.126.net/Ef36VcyM2TpkHM3JHdBAZA==/109951163353590232.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         }
       ],
       "url": null,
@@ -2408,45 +2385,35 @@
           "name": "服装",
           "hint": null,
           "picUrl": "http://p1.music.126.net/4FcoSYjDOyFQ0-mihLqQtA==/109951165019471518.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1009000,
           "name": "包袋",
           "hint": null,
           "picUrl": "http://p1.music.126.net/uZnp2jWhmXzX5nrrdxOWwQ==/109951165019470050.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1007002,
           "name": "配件",
           "hint": null,
           "picUrl": "http://p1.music.126.net/UVktQQjtUZ_RV59QCCHC4g==/109951165019469076.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 3678200,
           "name": "居家内搭",
           "hint": null,
           "picUrl": "http://p1.music.126.net/l4fBOBki73ZSHlMK0YcRRA==/109951165019471547.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 3678201,
           "name": "旅行户外",
           "hint": null,
           "picUrl": "http://p1.music.126.net/yn5CKA4UacHvGkJK7CUOEg==/109951164594202262.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         }
       ],
       "url": null,
@@ -2466,27 +2433,21 @@
           "name": "居家物品",
           "hint": null,
           "picUrl": "http://p1.music.126.net/f6Z1Uv9cFW7i-iKjWtqVBg==/109951164594112937.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1005002,
           "name": "雨伞",
           "hint": null,
           "picUrl": "http://p1.music.126.net/VdVmYom5vOQTC1fr7WqyQw==/109951165020010450.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         },
         {
           "id": 1007003,
           "name": "杯子",
           "hint": null,
           "picUrl": "http://p1.music.126.net/8-yKbkgilQswSiJ4oYnwzg==/109951165020018228.jpg",
-          "subs": [
-            
-          ]
+          "subs": []
         }
       ],
       "url": null,
@@ -2496,7 +2457,7 @@
       "picId2": null
     }
   ],
-  "searchConfigKey":{
+  "searchConfigKey": {
     "defaultKey": "真无线耳机",
     "configKey": [
       {
@@ -2516,10 +2477,9 @@
       }
     ]
   },
-  "xxxxxx": [
-
-  ],
-  "xxx2": {
-    "name": "typicode"
+  "xxxxxx": [],
+  "login": {
+    "username": "1212",
+    "password": "12"
   }
 }

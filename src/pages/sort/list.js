@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import * as config from '../../config'
 
 import Item2Row from '../../component/Item2Row/'
@@ -27,36 +26,25 @@ class Lists extends Component{
   componentDidMount(){
     let pid = window.location.pathname.split('/')[2];
     let searchhas = window.location.search.indexOf("?");
-
-    function api (a,b,c){
-      if(a){
-        console.log('aaaaaa')
-      }
-      if(b){
-        console.log('bbbbb')
-      }
-      if(c){
-        console.log('ccc')
-      }
-    }
     
     var params = getUrlVars();
     console.log(decodeURI(params.q));
     
     if(!searchhas){
       this.setState({searchVal: decodeURI(params.q)})
-      axios.get(`${config.BASE_URL}/hotProduct?key=${decodeURI(params.q)}&priceFilter=${this.state.priceFilter}`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/hotProduct?key=${decodeURI(params.q)}&priceFilter=${this.state.priceFilter}`).then((res) => {
         // console.log(res.data, 'hotProduct')
         this.setState({list : res.data })
       })
     }else{
-      axios.get(`${config.BASE_URL}/hotProduct?productId=${pid}&priceFilter=${this.state.priceFilter}`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/hotProduct?productId=${pid}&priceFilter=${this.state.priceFilter}`).then((res) => {
         // console.log(res.data, 'hotProduct')
         this.setState({list : res.data })
       })
     }
   }
   render(){
+    console.log(this.state.list)
     return (
       <div className="lists">
         <div className="search-bar">
@@ -84,7 +72,7 @@ class Lists extends Component{
         </div>
         <div className="list-warp">
         {
-          this.state.list ? <ul>
+          this.state.list.length>0 ? <ul>
             <Item2Row lists={this.state.list}></Item2Row>
           </ul> : <div className="none-tips"><div className="iconfont icon-zanwuneirong"></div>暂无商品</div>
         }
@@ -124,19 +112,19 @@ class Lists extends Component{
   onClickPriceFilter(t){
     if(t){
       this.setState({priceFilter: ''})
-      axios.get(`${config.BASE_URL}/hotProduct?priceFilter=`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/hotProduct?priceFilter=`).then((res) => {
         this.setState({list : res.data })
       })
     }
     // 0是低价  1是高价
     if(this.state.priceFilter == '' || this.state.priceFilter == '1'){
       this.setState({priceFilter: '0'})
-      axios.get(`${config.BASE_URL}/hotProduct?priceFilter=0`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/hotProduct?priceFilter=0`).then((res) => {
         this.setState({list : res.data })
       })
     }else{
       this.setState({priceFilter: '1'})
-      axios.get(`${config.BASE_URL}/hotProduct?priceFilter=1`).then((res) => {
+      React.$api.Get(`${config.BASE_URL}/hotProduct?priceFilter=1`).then((res) => {
         this.setState({list : res.data })
       })
     }

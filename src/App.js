@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route ,Switch } from 'react-router-dom'
 
+
 import Home from './pages/home'
 import Search from './pages/search'
 import Sort from './pages/sort'

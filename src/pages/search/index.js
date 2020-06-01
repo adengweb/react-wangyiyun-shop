@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import * as config from '../../config'
 
 import './style.scss'
@@ -14,7 +13,6 @@ class Search extends Component{
   }
   componentDidMount(){
     document.title = config.CONFIG_TITLE.search
-    
 
     //获取搜索历史记录
     // localStorage.setItem('searchHistory', JSON.stringify(['TODO']))
@@ -23,7 +21,7 @@ class Search extends Component{
     })
 
     //热门搜索
-    axios.get(`${config.BASE_URL}/searchConfigKey`).then((res) => {
+    React.$api.Get(`${config.BASE_URL}/searchConfigKey`, {}).then((res) => {
       console.log(res.data, 'searchConfigKey')
       this.setState({ searchConfigKey : res.data })
       this.setState({ searchWords : res.data.configKey })

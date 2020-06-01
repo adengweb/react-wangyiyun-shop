@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import './welfare.scss'
 
 class WelfareItem extends Component{
@@ -11,7 +12,7 @@ class WelfareItem extends Component{
         <div className="panel-box">
           {
             welfareData.map(item =>(
-              <div className="item" key={item.productId}>
+              <Link to={`detail/${item.welfareDetailId}`} className="item" key={item.productId}>
                 <div className="pic"><img src={item.picUrl} alt={item.productName} /></div>
                 <div className="cnt">
                   <p className="tit">{item.tags.length > 0 ? <i className="tag">{item.tags[0]}</i> : null}{item.productName}</p>
@@ -20,7 +21,7 @@ class WelfareItem extends Component{
                     <p className="oprice"><span>原价 ￥{item.oriPrice}</span><span>限量{item.welfareNum}件</span></p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           }
         </div>

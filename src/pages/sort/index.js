@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import * as config from '../../config'
 
 import './style.scss'
@@ -11,10 +10,14 @@ class Sort extends Component{
   componentDidMount(){
     document.title = config.CONFIG_TITLE.sort
 
-    axios.get(`${config.BASE_URL}/categoryList`).then((res) => {
+    React.$api.Get(`${config.BASE_URL}/categoryList`).then((res) => {
       console.log(res.data, 'categoryList')
       this.setState({ categoryList : res.data })
     })
+  }
+  handleClick(cid){
+    console.log(cid)
+    this.props.history.push({pathname:`/detail/${cid}`,query:{id:cid}})
   }
   render(){
     let categoryList = this.state.categoryList;
@@ -23,7 +26,7 @@ class Sort extends Component{
         {
           categoryList.map(item =>(
             <div className="category" key={item.categoryId}>
-              <div className="title">{item.category1Name}</div>
+              <div className="title" onClick={()=>this.handleClick(item.categoryId)}>{item.category1Name}</div>
               <Item v ={item.sub} />
             </div>
           ))

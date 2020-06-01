@@ -66,19 +66,27 @@ class Login extends Component{
   //登录
   handleClickLogin() {
     if(!this.state.username){
-      Toast.info('请填写正确的用户名', 2);
+      Toast.info('请填写正确的用户名', 1);
       return false
     }
     if(!this.state.password){
-      Toast.info('密码不能为空', 2);
+      Toast.info('密码不能为空', 1);
       return false
     }
 
-    localStorage.setItem('token', 'token_dsajkXjksadjskHioiowmk')
-    Toast.success('登录成功', 2);
-    setTimeout(() => {
-      window.location.href="/"
-    }, 2000);
+    let _params = {
+      username :this.state.username,
+      password: this.state.password,
+    }
+
+    React.$api.Post(`${config.BASE_URL}/login`, _params).then((res) => {
+      console.log(res.data)
+      localStorage.setItem('token', 'de45621uSER'+res.data.username+'5eN1bjq8AAUYm2zgoY3K')
+      Toast.success('登录成功', 2);
+      setTimeout(() => {
+        window.location.href="/"
+      }, 2000);
+    })
   }
   // 协议弹窗
   onOpenChange() {
