@@ -1,0 +1,226 @@
+.valid-coupon{
+  padding: 0.65rem 0.75rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+}
+.invalid-coupon{
+  .disbar{
+    padding:.3rem 0.5rem;
+    font-size: 0.7rem;
+    color: #777;
+    background: #fff;
+    .iconfont{
+      display: inline-block;
+      width: 1.2rem;
+      height: 1.2rem;
+      text-align: center;
+      line-height: 1.2rem;
+      vertical-align: middle;
+      // transform:rotate(90deg);
+    }
+    &.active{
+      .iconfont{
+        transform:rotate(90deg);
+      }
+    }
+  }
+  .couponBox{
+    padding: 0.65rem 0.75rem;
+    border-top: 1px solid #eee;
+    background: #fff;
+    .couponItem{
+      background: rgba(0, 0, 0, 0.05);
+      border-color: #dadada;
+      &:after,&:before{
+        border-color: #dadada;
+      }
+      .cnt{
+        &:after{
+          border-color: #dadada;
+        }
+        .price{
+          color: #777;
+          &:after{
+            border-color: #dadada;
+          }
+        }
+        .cmina .tit{
+          .tag{
+            color: #999;
+            &:after{
+              border-color: #dadada;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.couponBox{
+  .couponItem{
+    position: relative;
+    margin-bottom: 0.5rem;
+    // overflow: hidden;
+    border: 1px solid #f4d1cf;
+    background: rgba(211, 58, 49, 0.05);
+    &:after{
+      content: '';
+      position: absolute;
+      top: 78px;
+      left: -7px;
+      width: 14px;
+      height: 14px;
+      border-radius: 15px;
+      background: #fff;
+      border-top: 1px solid #f4d1cf;
+      border-right: 1px solid #f4d1cf;
+      z-index: 100;
+      transform: rotate(41deg);
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      top: 78px;
+      right: -7px;
+      width: 14px;
+      height: 14px;
+      border-radius: 15px;
+      background: #fff;
+      border-top: 1px solid #f4d1cf;
+      border-left: 1px solid #f4d1cf;
+      z-index: 100;
+      transform: rotate(-41deg);
+    }
+  }
+  .cnt{
+    position: relative;
+    display: flex;
+    height: 4.25rem;
+    &:after{
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      border-bottom: 1px dashed #f4d1cf;
+    }
+    .price{
+      position: relative;
+      display: flex;
+      width: 28%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap:wrap;
+      &:after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-right: 1px dashed #f4d1cf;
+      }
+      .val{
+        width: 100%;
+        margin-top: .7rem;
+        line-height: 1.75rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+        em{
+          padding-right: 0.1rem;
+          font-size: .8rem;
+          vertical-align: middle;
+        }
+      }
+      .tip{
+        padding-bottom: 1rem;
+        color: #999;
+      }
+    }
+    .cmina{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-wrap:wrap;
+      padding: 0 .5rem;
+      .tit{
+        padding-top: 1rem;
+        font-size: 0.7rem;
+        .tag{
+          position: relative;
+          display: inline-block;
+          padding: 0.1rem;
+          margin-right: 0.2rem;
+          font-size: 0.6rem;
+          color: #d33a31;
+          vertical-align: middle;
+          margin-top: -0.2rem;
+          &:after{
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: -1px;
+            right: -1px;
+            bottom: -1px;
+            border: 1px solid #d33a31;
+          }
+        }
+      }
+      .use{
+        display: flex;
+        width: 100%;
+        padding-bottom: .55rem;
+        .time{
+          flex: 1;
+          line-height: 1.1rem;
+          color: #999;
+        }
+        .btn{
+          width: 2.5rem;
+          line-height: .9rem;
+          text-align: center;
+          color: #d33a31;
+          border: 1px solid #d33a31;
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+  .doc{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0.5rem 2rem 0.5rem 0.75rem;
+    line-height: 0.8rem;
+    color: #888;
+    .arr{
+      position: absolute;
+      width: 1.7rem;
+      height: 1.7rem;
+      right: 0;
+      top: 0;
+      line-height: 1.7rem;
+      text-align: center;
+      color: #999;
+      transform:rotate(90deg);
+    }
+    .note{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &.active{
+      .note{
+        overflow: visible;
+        text-overflow: auto;
+        white-space: normal;
+        word-wrap: break-world;
+        word-break: break-all;
+      }
+      .arr{
+        transform:rotate(-90deg);
+      }
+    }
+  }
+}
