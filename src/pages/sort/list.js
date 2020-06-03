@@ -47,6 +47,7 @@ class Lists extends Component{
     console.log(this.state.list)
     return (
       <div className="lists">
+        {this.state.searchVal &&
         <div className="search-bar">
           <div className="inputwrap">
             <i className="iconfont icon-sousuo1"></i>
@@ -59,6 +60,7 @@ class Lists extends Component{
             }
           </div>
         </div>
+        }
         {this.state.valKeyShow && 
           <div className="chengVal">
             <a href={`/list/result?q=${this.state.searchVal}`}>搜索 " {this.state.searchVal} "</a>

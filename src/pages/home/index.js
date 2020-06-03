@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import * as config from '../../config'
 import { Carousel, Toast } from 'antd-mobile';
 
@@ -28,17 +27,17 @@ class Index extends Component{
 
     // 默认未签到-存入localStorage
     localStorage.setItem("signStatus", localStorage.getItem('signStatus') || 0)
-    this.setState({ signStatus : localStorage.getItem('signStatus') })
+    React.$api.Get(`${config.BASE_URL}/user`).then((res) => {
+      console.log(res.data, 'user')
+      this.setState({ user : res.data,signStatus : res.data.status })
+      // this.setState({ signStatus : 0 })
+    })
 
     // 用户数据，当有token的时候在去请求
     var token = localStorage.getItem('token');
     this.setState({ token : token })
     console.log(token, '=====>token')
     if(token){
-      React.$api.Get(`${config.BASE_URL}/user`).then((res) => {
-        console.log(res.data, 'user')
-        this.setState({ user : res.data })
-      })
       // welfare数据
       React.$api.Get(`${config.BASE_URL}/welfareInfo`).then((res) => {
         console.log(res.data, 'welfareInfo')

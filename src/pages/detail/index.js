@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Detail extends Component{
   constructor(props) {
     super(props)
-    console.log(this.props.location.query)
+    console.log(this.props.match.params.id);
+    
     this.state = {}
   }
   componentDidMount(){

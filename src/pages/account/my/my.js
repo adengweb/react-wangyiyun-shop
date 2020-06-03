@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import * as config from '../../../config'
 
 import { Modal } from 'antd-mobile'
@@ -7,7 +8,7 @@ const alert = Modal.alert;
 
 class My extends Component{
   state = {
-
+    myConfig:{}
   }
   componentDidMount(){
     document.title = config.CONFIG_TITLE.acctountMy
@@ -17,42 +18,49 @@ class My extends Component{
     if(!token){
       window.location.href="/login"
     }
+
+    //获取个人中心数据
+    React.$api.Get(`${config.BASE_URL}/getMyConfig`).then((res) => {
+      console.log(res.data, 'myConfig')
+      this.setState({myConfig : res.data })
+    })
   }
   render(){
     return (
       <div className="my">
         <div className="row-box order-clear">
           <div className="row">
-            <a href="/TODO">
+            <Link to="/order">
               <span className="txt">我的订单</span>
               <em>全部订单</em>
-            </a>
+            </Link>
             <i className="iconfont icon-right1"></i>
           </div>
         </div>
         <div className="order-row">
-          <a href="/TODO"><i className="iconfont icon-daizhifu"></i><p>待支付</p></a>
-          <a href="/TODO"><i className="iconfont icon-daishouhuo"></i><p>待发货</p></a>
-          <a href="/TODO"><i className="iconfont icon-daifahuo"></i><p>待收货</p></a>
+          <Link to="/order?type=1"><i className="iconfont icon-daizhifu"></i><p>待支付</p></Link>
+          <Link to="/order?type=2"><i className="iconfont icon-daishouhuo"></i><p>待发货</p></Link>
+          <Link to="/order?type=3"><i className="iconfont icon-daifahuo"></i><p>待收货</p></Link>
         </div>
         <div className="row-box">
           <div className="row">
-            <a href="/TODO">
+            <Link to="/account/coupon">
               <span className="txt">我的优惠券</span>
-              <em>1张</em>
-            </a>
+              <em>{this.state.myConfig.couponNum}张</em>
+            </Link>
             <i className="iconfont icon-right1"></i>
           </div>
           <div className="row">
-            <a href="/TODO">
+            <Link to="/account/address">
               <span className="txt">我的收货地址</span>
-            </a>
+            </Link>
             <i className="iconfont icon-right1"></i>
           </div>
           <div className="row">
-            <a href="/TODO">
+            <Link to="/account/live">
               <span className="txt">我想看的演出</span>
-            </a>
+              <em className={`${this.state.myConfig.liveNum && 'reddot'}`}>{this.state.myConfig.liveNum}</em>
+            </Link>
             <i className="iconfont icon-right1"></i>
           </div>
           <div className="row">

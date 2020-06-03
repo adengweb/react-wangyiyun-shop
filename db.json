@@ -2,7 +2,7 @@
   "user": {
     "userId": 108296388,
     "balance": 103,
-    "status": 1
+    "status": 0
   },
   "welfareInfo": [
     {
@@ -2481,5 +2481,92 @@
   "login": {
     "username": "1212",
     "password": "12"
+  },
+  "getMyConfig":{
+    "couponNum": 2,
+    "liveNum": true,
+    "orderNum": 26,
+    "orderPay": 2,
+    "orderShipments": 6,
+    "orderTake": 3
+  },
+  "getLiveList": [
+    {
+      "id":1,
+      "pic": "https://image.juooo.com//group1/M00/04/15/rAoKNV4Ai8aASzAiAADHTN4Zqzo009.jpg",
+      "name": "林子祥开心演唱会-新加坡站",
+      "time": "2020.07.04 20:00",
+      "low_price": "380.00",
+      "url": "https://m.juooo.com/ticket/111638",
+      "venue_name": "圣淘沙名胜世界宴会厅Resorts World Ballroom"
+    },
+    {
+      "id":2,
+      "pic": "https://image.juooo.com//group1/M00/03/94/rAoKmV56tJuASP2mAABn85FhHXA540.jpg",
+      "name": "2020洪辰《HER ART/HEART》新专辑巡演 长沙站",
+      "time": "2020.07.05 20:00",
+      "low_price": "180.00",
+      "url": "https://m.juooo.com/ticket/114214",
+      "venue_name": "长沙MAO LIVEHOUSE"
+    },
+    {
+      "id":3,
+      "pic": "https://image.juooo.com//group1/M00/04/41/rAoKNV60tOaAWA1XAAJHswFkGJo047.png",
+      "name": "“降临”曾楠2020巡演 重庆站",
+      "time": "2020.07.04 20:00",
+      "low_price": "88.00",
+      "url": "https://m.juooo.com/ticket/114431",
+      "venue_name": "坚果LIVEHOUSE（渝中店)"
+    }
+  ],
+  "getCoupons": {
+    "valid":[
+      {
+        "couponDesc": "仅限数码影音类目通用，领取后5天内有效，逾期失效，建议您领取后尽快使用。",
+        "couponId": 6415301,
+        "couponLabel": "领券立减",
+        "couponName": "618全场满减",
+        "actionType": 1,
+        "effectValue": 80,
+        "minMoney": 399,
+        "validEndTime": 1591545599285,
+        "validStartTime": 1591092909285
+      },
+      {
+        "couponDesc": "仅限数码影音类目通用，领取后5天内有效，逾期失效，建议您领取后尽快使用。",
+        "couponId": 6415302,
+        "couponLabel": "数码通用",
+        "couponName": "618全场满减",
+        "actionType": 1,
+        "effectValue": 40,
+        "minMoney": 199,
+        "validEndTime": 1591545599285,
+        "validStartTime": 1591092909285
+      },
+      {
+        "couponDesc": "仅限数码影音类目通用，领取后5天内有效，逾期失效，建议您领取后尽快使用。",
+        "couponId": 6415303,
+        "couponLabel": "领券立减",
+        "couponName": "618全场满减",
+        "actionType": 1,
+        "effectValue": 20,
+        "minMoney": 99,
+        "validEndTime": 1591545599285,
+        "validStartTime": 1591092909285
+      }
+    ],
+    "invalid":[
+      {
+        "couponDesc": "仅限数码影音指定商品使用，数量有限，先到先得，领取后5天内有效。",
+        "couponId": 6415304,
+        "couponLabel": "领券立减",
+        "couponName": "初夏盛惠",
+        "actionType": 0,
+        "effectValue": 30,
+        "minMoney": 0,
+        "validEndTime": 1591545599285,
+        "validStartTime": 1591092909285
+      }
+    ]
   }
 }

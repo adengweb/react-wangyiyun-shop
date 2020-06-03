@@ -1,0 +1,42 @@
+.mod-live{
+  .item{
+    display: flex;
+    padding: 0.5rem .75rem;
+    margin-bottom: 0.5rem;
+    background: #fff;
+    .pic{
+      width: 5.2rem;
+      img{
+        width: 100%;
+      }
+    }
+    .info{
+      flex: 1;
+      padding-left: 0.5rem;
+      .name{
+        padding-bottom: 0.5rem;
+        font-size: 0.7rem;
+      }
+      .price{
+        padding-top: 0.6rem;
+        color: #999;
+        em{
+          padding-right: 0.2rem;
+          font-size: 0.7rem;
+          font-weight: bold;
+          color: #d33a31;
+        }
+      }
+      p{
+        margin: 0.3rem 0;
+        color: #999;
+        .iconfont{
+          display: inline-block;
+          padding-right: 0.3rem;
+          vertical-align: middle;
+          margin-top: -0.15rem;
+        }
+      }
+    }
+  }
+}
