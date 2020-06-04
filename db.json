@@ -2477,7 +2477,6 @@
       }
     ]
   },
-  "xxxxxx": [],
   "login": {
     "username": "1212",
     "password": "12"
@@ -2579,5 +2578,6 @@
       "name": "3333333",
       "name": "3333333"
     }
-  ]
+  ],
+  "getAddressList":[]
 }

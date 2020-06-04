@@ -47,7 +47,7 @@ class Coupon extends Component{
                 </li>
               ))}
             </ul>
-            : <div className="none-tips"><div className="iconfont icon-zanwuneirong"></div>暂无优惠券</div>
+            : <div className="none-tips"><div className="iconfont icon-zanwuyouhuiquan"></div>暂无优惠券</div>
           }
         </div>
         <div className="invalid-coupon">
