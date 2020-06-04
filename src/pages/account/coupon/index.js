@@ -34,7 +34,7 @@ class Coupon extends Component{
                       <p className="tip">{item.minMoney == '0' ? '无门槛' : `满${item.minMoney}使用`}</p>
                     </div>
                     <div className="cmina">
-                      <div className="tit"><i className="tag">{item.couponLabel}{index}</i>{item.couponName}</div>
+                      <div className="tit"><i className="tag">{item.couponLabel}</i>{item.couponName}</div>
                       <div className="use">
                         <span className="time">{DateSwitch(item.validStartTime)} - {DateSwitch(item.validEndTime)}</span>
                       </div>
