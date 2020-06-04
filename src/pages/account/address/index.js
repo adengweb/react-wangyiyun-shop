@@ -29,11 +29,11 @@ class Address extends Component{
           <div className="list">
             {this.state.lists === null ? 
             <ul>
-              <li className="item">
+              {/* <li className="item">
                 <h3 className="tit"><span>name</span><span>tel</span></h3>
                 <p className="info">广东-深圳-南山区2356356565</p>
                 <span className="iconfont icon-bianji edit"></span>
-              </li>
+              </li> */}
             </ul>
             : <div className="none-tips"><div className="iconfont icon-zanwushouhuodizhi"></div>暂无收货地址</div>}
             <div className="add"><span onClick={()=>this.setState({isEdit: false})}>添加收货地址</span></div>

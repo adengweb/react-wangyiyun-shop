@@ -84,6 +84,11 @@ class My extends Component{
             <i className="iconfont icon-right1"></i>
           </div>
         </div>
+
+        <div className="f-logo">
+          <i className="iconfont icon-musiccloud"></i>
+          <p>&copy; 网易云商城</p>
+        </div>
       </div>
     )
   }
