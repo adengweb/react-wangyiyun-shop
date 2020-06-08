@@ -66,6 +66,7 @@ ul {
 
 body{
   font-size: 0.6rem;
+  font-family: HanHei SC,PingFang SC,Helvetica Neue,Helvetica,sans-serif;
 }
 
 img {
@@ -151,6 +152,10 @@ textarea {
   height: 0;
   visibility: hidden;
   display: block;
+}
+
+.iconfont{
+  display: inline-block;
 }
 
 .none-tips{

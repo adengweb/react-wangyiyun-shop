@@ -10,7 +10,8 @@ class Item2Row extends Component{
         {list.map((item,index) => (
           <li key={item.id}>
             {/* <Link to={{pathname'/detail', state:{pid: item.productId}}} className="item"> */}
-            <Link to={`/detail/${item.productId}`} className="item">
+            {/* <Link to={`/detail/${item.productId}`} className="item"> */}
+            <a href={`/detail/${item.productId}`} className="item">
               <div className="pic">
                 <img src={item.products.coverUrl+"?imageView&thumbnail=346x0&quality=75&tostatic=0&type=webp"} alt={item.name} />
                 <div className="buying">
@@ -20,7 +21,8 @@ class Item2Row extends Component{
               </div>
         <div className="name">{item.products.couponLabelDesc != null ? <i className="tag">{item.products.couponLabelDesc}</i> : null}{item.name}</div>
               <p>￥{item.products.minPrice}</p>
-            </Link>
+            </a>
+            {/* </Link> */}
           </li>
         ))}
       </React.Fragment>

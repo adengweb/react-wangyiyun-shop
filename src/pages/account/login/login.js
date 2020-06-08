@@ -81,7 +81,7 @@ class Login extends Component{
 
     React.$api.Post(`${config.BASE_URL}/login`, _params).then((res) => {
       console.log(res.data)
-      localStorage.setItem('token', 'de45621uSER'+res.data.username+'5eN1bjq8AAUYm2zgoY3K')
+      localStorage.setItem('token', 'ce0c225ac62895b54e78af23e0e342a35eN1bjq8AAUYm2zgoY3K')
       Toast.success('登录成功', 2);
       setTimeout(() => {
         window.location.href="/"

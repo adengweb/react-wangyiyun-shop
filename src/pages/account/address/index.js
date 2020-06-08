@@ -9,7 +9,7 @@ import './style.scss'
 
 class Address extends Component{
   state = {
-    lists: null,
+    lists: [],
     isEdit: true,
   }
   componentDidMount(){
@@ -27,13 +27,15 @@ class Address extends Component{
       <div className="mod-address">
         {this.state.isEdit ?
           <div className="list">
-            {this.state.lists === null ? 
+            {this.state.lists === [] ? 
             <ul>
-              {/* <li className="item">
-                <h3 className="tit"><span>name</span><span>tel</span></h3>
-                <p className="info">广东-深圳-南山区2356356565</p>
-                <span className="iconfont icon-bianji edit"></span>
-              </li> */}
+              {this.state.lists.map((v,index)=>(
+                <li className="item">
+                  <h3 className="tit"><span>name</span><span>tel</span></h3>
+                  <p className="info">广东-深圳-南山区2356356565</p>
+                  <span className="iconfont icon-bianji edit"></span>
+                </li>
+              ))}
             </ul>
             : <div className="none-tips"><div className="iconfont icon-zanwushouhuodizhi"></div>暂无收货地址</div>}
             <div className="add"><span onClick={()=>this.setState({isEdit: false})}>添加收货地址</span></div>

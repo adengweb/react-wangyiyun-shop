@@ -1,0 +1,215 @@
+.mod-detail{
+  padding-bottom: 3rem;
+  .gocart{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    // padding: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 10;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+  }
+  .swipe-box{
+    position: relative;
+    .current{
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      height: 1rem;
+      padding: 0 0.45rem;
+      line-height: 1rem;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 0.8rem;
+      color: #fff;
+      font-size: 0.6rem;
+      text-align: center;
+    }
+  }
+  .slider-decorator-0{
+    bottom: 10px !important;
+    display: none !important;
+  }
+  .m-buy{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .35rem .2rem;
+    background: #fff;
+    border-top: 1px solid #eee;
+    z-index: 99;
+    display: flex;
+    box-sizing: border-box;
+    .iconfont{
+      font-size: 1rem;
+    }
+    .shoucang{
+      padding: 0.4rem 0;
+      width: 2.6rem;
+      text-align: center;
+    }
+    ul{
+      flex: 1;
+      display: flex;
+      li{
+        flex: 1;
+        .iconfont{
+          padding: 0 0.3rem;
+        }
+        span{
+          display: flex;
+          align-items:center;
+          justify-content: center;
+          padding: 0.4rem 0;
+          margin: 0 0.1rem;
+          height: 100%;
+          box-sizing: border-box;
+          text-align: center;
+          color: #fff;
+          font-size: 0.75rem;
+          font-weight: bold;
+          background: #d33a31;
+          
+          border-radius: 1.5rem;
+          &.gouwuche{
+            background-image: linear-gradient(-50deg, #ee7a73, #e7b623);
+          }
+          &.pay{
+            background-image: linear-gradient(to right, #ee6058, #d33a31);
+          }
+        }
+      }
+    }
+  }
+  .m-title{
+    padding: 0.55rem 0.5rem 0;
+    background: #fff;
+    .name{
+      line-height: 1.3;
+      font-size: 0.85rem;
+      .tag{
+        color: #d33a31;
+        padding: 0.1rem 0.2rem;
+        position: relative;
+        top: -0.15rem;
+        margin-right: 0.25rem;
+        font-size: 0.6rem;
+        &:after{
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          box-sizing: border-box;
+          width: 200%;
+          height: 200%;
+          transform: scale(.5);
+          transform-origin: top left;
+          pointer-events: none;
+          border: 1px solid #d33a31;
+        }
+      }
+    }
+    .promotion{
+      margin: 0.3rem 0 0.5rem;
+      font-size: 0.7rem;
+      color: #d33a31;
+    }
+    .price{
+      font-size: 1rem;
+      color: #d33a31;
+      position: relative;
+      margin: 0.75rem 0 0;
+      padding-bottom: 0.5rem;
+      .favor{
+        font-size: 1.5rem;
+      }
+      .normal{
+        font-size: 0.7rem;
+        color: #999;
+        text-decoration: line-through;
+        margin-left: 0.75rem;
+      }
+    }
+  }
+  .item-floor{
+    position: relative;
+    display: flex;
+    align-items:center;
+    // justify-content: center;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+    padding-right: 1rem;
+    height: 2.25rem;
+    background: #fff;
+    .iconfont{
+      position: absolute;
+      right: 0.5rem;
+      font-size: 1rem;
+      color: #999;
+    }
+    .lab{
+      padding-right: 0.5rem;
+      font-size: 0.7rem;
+    }
+    .cnt{
+      flex: 1;
+      font-size: 0.6rem;
+      color: #999;
+      height: 2.25rem;
+      line-height: 2.35rem;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &.sever{
+        span{
+          padding-right: 0.6rem;
+          &:before{
+            content: '';
+            width: 0.2rem;
+            height: 0.2rem;
+            margin-right: 0.2rem;
+            border-radius: 50%;
+            vertical-align: middle;
+            display: inline-block;
+            background: #d33a31;
+            margin-top: -0.05rem;
+          }
+        }
+      }
+    }
+  }
+  .doc{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #fff;
+    .tit{
+      padding: 0.6rem 0;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    li{
+      width: 100%;
+      word-break: break-all;
+      word-wrap: break-word;
+      white-space: normal;
+      .type-text{
+        font-size: 0.7rem;
+        color: #666;
+        margin: 0.5rem 0;
+        line-height: 1rem;
+      }
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
