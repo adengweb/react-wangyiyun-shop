@@ -17,17 +17,18 @@ class Detail extends Component{
     serviceTypeList: [],
     descList: [],
     slideIndex: 1,
-    imgHeight : 176
+    imgHeight : 176,
+    isLive: false,
+    isCart: false,
   }
   componentDidMount(){
     //pid
     let pid = this.props.match.params.id
     Toast.loading('加载中...', 0, null, false)
-
     
     // 获取产品详情数据
     React.$api.Get(`${config.BASE_URL}/detail?id=${pid}`).then((res) => {
-      console.log(res.data[0], 'Detail')
+      // console.log(res.data[0], 'Detail')
       this.setState({
         detail : res.data[0],
         picUrls: res.data[0].picUrls,
@@ -40,9 +41,31 @@ class Detail extends Component{
     })
 
     React.$api.Get(`${config.BASE_URL}/hotProduct`).then((res) => {
-      console.log(res.data, 'hotProduct')
+      // console.log(res.data, 'hotProduct')
       this.setState({hot : res.data })
     })
+  }
+  //添加收藏
+  handleClickLive(){
+    if(this.state.isLive === true){Toast.success('已添加', 1);  return false}
+    this.setState({isLive: true})
+    Toast.success('收藏成功', 2)
+  }
+  //添加收藏
+  handleClickCart(){
+    if(this.state.isCart === true){Toast.success('已添加', 1);  return false}
+    this.setState({isCart: true})
+    let getCart = JSON.parse(localStorage.getItem('cart_history')) || [];
+    console.log(getCart);
+    // var history = JSON.stringify(this.state.searchHistory) || [];
+    // var h_arr = JSON.parse(history)
+
+    let cartObj = this.state.detail.id
+    // console.log(cartObj);
+    getCart.splice(0,0,cartObj);
+    // console.log(nerObj);
+    localStorage.setItem('cart_history', JSON.stringify(getCart))
+    Toast.success('添加购物车成功', 2)
   }
   render(){
     let detail = this.state.detail
@@ -89,9 +112,9 @@ class Detail extends Component{
         </div>
         <HotProductItem title="为你推荐"  hotProductData = {this.state.hot}  />
         <div className="m-buy">
-          <div className="shoucang"><i className="iconfont icon-shoucang"></i></div>
+          <div className={`shoucang${this.state.isLive ? ' active' : ''}`} onClick={()=>this.handleClickLive()}><i className="iconfont icon-shoucang"></i></div>
           <ul>
-            <li><span className="gouwuche">加入购物车</span></li>
+            <li onClick={()=>this.handleClickCart()}><span className="gouwuche">加入购物车</span></li>
             <li><span className="pay">立即购买</span></li>
           </ul>
         </div>
