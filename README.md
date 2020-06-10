@@ -1,4 +1,4 @@
-﻿## React-wangyiyun-shop React仿网易云商城
+## React-wangyiyun-shop React仿网易云商城
 
 云音乐商城是专注于音乐场景打造的音乐购物平台，包含音乐人周边、3c影音数码、音乐市集等，和我们一起让音乐购有趣，给生活加点料
 
@@ -19,8 +19,8 @@
 ``` bash
   启动API： json-server --watch --port 3200 db.json
 
-  开发环境： yarn start
-  打包环境： yarn build
+  开发环境： yarn start        npm run start
+  打包环境： yarn build        npm run build
 ```
 
 ## API
@@ -92,6 +92,14 @@ localStorage.setItem('user', JSON.stringify(user));  // 存储值：将对象转
 var userJsonStr = localStorage.getItem('user');  // 取值时：把获取到的Json字符串转换回对象
 localStorage.removeItem("job");  // removeItem删除key
 localStorage.clear();  // clear清除所有的key/value
+
+JSON.parse(localStorage.getItem('cart_history')) //解析字符串
+localStorage.setItem('searchHistory', JSON.stringify(h_arr))   //变成字符串
+
+react 用.map方法如何遍历指定的数据数量
+students.slice(0, 10).map();
+
+
   
 ```
 
