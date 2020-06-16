@@ -133,6 +133,7 @@
       "priceFilter": 1,
       "productId": 17847134,
       "skuArr": "白色",
+      "checked":false,
       "orderWeight": 1,
       "products": {
         "stock": 2896,
@@ -222,7 +223,8 @@
       "price": null,
       "priceFilter": 0,
       "productId": 18068024,
-      "skuArr": "曜岩灰",
+      "skuArr": "红色",
+      "checked":false,
       "orderWeight": 2,
       "products": {
         "stock": 3581,
@@ -316,7 +318,8 @@
       "price": null,
       "priceFilter": "",
       "productId": 22054601,
-      "skuArr": "红色",
+      "skuArr": "曜岩灰",
+      "checked":false,
       "orderWeight": 3,
       "products": {
         "stock": 44,
@@ -407,6 +410,7 @@
       "priceFilter": "",
       "productId": 17994022,
       "skuArr": "黑色",
+      "checked":false,
       "orderWeight": 4,
       "products": {
         "stock": 850,
@@ -499,6 +503,7 @@
       "priceFilter": "",
       "productId": 17994022,
       "skuArr": "红色",
+      "checked":false,
       "orderWeight": 4,
       "products": {
         "stock": 850,
@@ -591,6 +596,7 @@
       "priceFilter": "",
       "productId": 17994022,
       "skuArr": "白色",
+      "checked":false,
       "orderWeight": 4,
       "products": {
         "stock": 850,

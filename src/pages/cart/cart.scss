@@ -66,11 +66,17 @@
       }
     }
     .chebox{
-      padding: 0 .4rem;
+      // padding: 0 .4rem;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-pack: center;
       -webkit-box-align: center;
+      .am-list-item .am-list-thumb:first-child{
+        margin-right: 0;
+      }
+      // .am-list-item .am-list-line{
+      //   display: none;
+      // }
     }
     .imgbox{
       width: 4.5rem;
@@ -128,6 +134,7 @@
           line-height: 1.5rem;
           border: 0;
           text-align: center;
+          background: #fff;
           border-left: 1px solid #ddd;
           border-right: 1px solid #ddd;
         }
