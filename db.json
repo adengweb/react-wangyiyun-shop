@@ -132,7 +132,7 @@
       "price": null,
       "priceFilter": 1,
       "productId": 17847134,
-      "resourceUrl": null,
+      "skuArr": "白色",
       "orderWeight": 1,
       "products": {
         "stock": 2896,
@@ -222,7 +222,7 @@
       "price": null,
       "priceFilter": 0,
       "productId": 18068024,
-      "resourceUrl": null,
+      "skuArr": "曜岩灰",
       "orderWeight": 2,
       "products": {
         "stock": 3581,
@@ -316,7 +316,7 @@
       "price": null,
       "priceFilter": "",
       "productId": 22054601,
-      "resourceUrl": null,
+      "skuArr": "红色",
       "orderWeight": 3,
       "products": {
         "stock": 44,
@@ -406,7 +406,7 @@
       "price": null,
       "priceFilter": "",
       "productId": 17994022,
-      "resourceUrl": null,
+      "skuArr": "黑色",
       "orderWeight": 4,
       "products": {
         "stock": 850,
@@ -498,7 +498,7 @@
       "price": null,
       "priceFilter": "",
       "productId": 17994022,
-      "resourceUrl": null,
+      "skuArr": "红色",
       "orderWeight": 4,
       "products": {
         "stock": 850,
@@ -590,7 +590,7 @@
       "price": null,
       "priceFilter": "",
       "productId": 17994022,
-      "resourceUrl": null,
+      "skuArr": "白色",
       "orderWeight": 4,
       "products": {
         "stock": 850,
@@ -2478,10 +2478,10 @@
     ]
   },
   "login": {
-    "username": "1212",
-    "password": "12"
+    "username": "13223232",
+    "password": "56565656"
   },
-  "getMyConfig":{
+  "getMyConfig": {
     "couponNum": 2,
     "liveNum": true,
     "orderNum": 26,
@@ -2491,7 +2491,7 @@
   },
   "getLiveList": [
     {
-      "id":1,
+      "id": 1,
       "pic": "https://image.juooo.com//group1/M00/04/15/rAoKNV4Ai8aASzAiAADHTN4Zqzo009.jpg",
       "name": "林子祥开心演唱会-新加坡站",
       "time": "2020.07.04 20:00",
@@ -2500,7 +2500,7 @@
       "venue_name": "圣淘沙名胜世界宴会厅Resorts World Ballroom"
     },
     {
-      "id":2,
+      "id": 2,
       "pic": "https://image.juooo.com//group1/M00/03/94/rAoKmV56tJuASP2mAABn85FhHXA540.jpg",
       "name": "2020洪辰《HER ART/HEART》新专辑巡演 长沙站",
       "time": "2020.07.05 20:00",
@@ -2509,7 +2509,7 @@
       "venue_name": "长沙MAO LIVEHOUSE"
     },
     {
-      "id":3,
+      "id": 3,
       "pic": "https://image.juooo.com//group1/M00/04/41/rAoKNV60tOaAWA1XAAJHswFkGJo047.png",
       "name": "“降临”曾楠2020巡演 重庆站",
       "time": "2020.07.04 20:00",
@@ -2519,7 +2519,7 @@
     }
   ],
   "getCoupons": {
-    "valid":[
+    "valid": [
       {
         "couponDesc": "仅限数码影音类目通用，领取后5天内有效，逾期失效，建议您领取后尽快使用。",
         "couponId": 6415301,
@@ -2554,7 +2554,7 @@
         "validStartTime": 1591092909285
       }
     ],
-    "invalid":[
+    "invalid": [
       {
         "couponDesc": "仅限数码影音指定商品使用，数量有限，先到先得，领取后5天内有效。",
         "couponId": 6415304,
@@ -2574,31 +2574,1498 @@
       "pic": "11111",
       "id": "222222222",
       "name": "3333333",
-      "price": "3333333",
-      "name": "3333333",
-      "name": "3333333"
+      "price": "3333333"
     }
   ],
-  "getAddressList":[],
-  "detail":[
+  "getAddressList": [],
+  "detail": [
     {
-      "id":17847134,"name":"HT-08运动蓝牙耳机 3D立体声 三键线控 安卓苹果通用","type":"third","category1Id":101000,"category2Id":1005000,"labelList":["爆款"],"tagList":["特价"],"priceType":1,"brandName":"影巨人","suggestWord":"3D立体声 佩戴舒适 狂甩不掉 三键线控 待机时间长 连续听歌5-7小时","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002Fr4pjKbb6sJXs7aX0Xfm3eg==\u002F109951164941875249.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002Fx4jKtdv6HkvEMJD2u9nYBw==\u002F109951164170761538.jpg","http:\u002F\u002Fp1.music.126.net\u002FrEQk58J6uggyRmWEXW172w==\u002F109951164179229364.jpg","http:\u002F\u002Fp1.music.126.net\u002F0Y4zBm83xwm1lQW6fJbKgw==\u002F109951164170702922.jpg","http:\u002F\u002Fp1.music.126.net\u002FDcpwuYi6P1ErnnMtU1SLNQ==\u002F109951164170707752.jpg","http:\u002F\u002Fp1.music.126.net\u002FhljFF1wCozRf6aM7KLYkDA==\u002F109951164170710695.jpg","http:\u002F\u002Fp1.music.126.net\u002Fr4pjKbb6sJXs7aX0Xfm3eg==\u002F109951164941875249.jpg"],"skuList":[{"id":32050848,"productId":17847134,"price":79,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FayGzf1iheF9WYQIDpiUmoA==\u002F109951164170724594.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"正品低价 品质保证\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E影巨人 HT-08 运动蓝牙耳机\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E装箱清单：耳机× 1，充电线× 1，说明书× 1。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FOFucBF9oFvUYb_E8qJdqqA==\u002F109951164179220913.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F9BBtsH4xOvRAy5NP-JObkQ==\u002F109951164179225197.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FQdg3n89-QXARy4NcEaNrKA==\u002F109951164179229617.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FqAIxhj1BB9XsNMGLk1QxqA==\u002F109951164179225708.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fotqw_kXTMrZA9HtzC04AvA==\u002F109951164179231075.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F4t83Xzh0GqC1FJiubPPhsQ==\u002F109951164179227171.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FRlmidJ3GE4IWlmXiLvA8JQ==\u002F109951164179225211.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FqAaM4n41vc-zsCuGbtWoPQ==\u002F109951164179227661.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F2ydczyiccLvxDRixAEgRHQ==\u002F109951164179221944.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fcuv4gqvebDeb0lcGr2MOZA==\u002F109951164179223828.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F9PuavfbQjAER9P8mAEQtbg==\u002F109951164179227673.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FFajPKBDOCvGIom9NFBHU9Q==\u002F109951164179226216.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FRhNT7wGcidmy1vYvzCVS2A==\u002F109951164179220952.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FOyp_8vKP49kfMQbFtcjNVg==\u002F109951164179232101.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FGYtPH1sHPdO-7hs6o7RJsQ==\u002F109951164179229172.jpg"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"商品交易成功后会在2个工作日内由深圳市恒天鸿业科技限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："},{"type":1,"content":"·客服账号：私信 @云音乐客服"},{"type":1,"content":"·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"},{"type":1,"content":"注：因质量问题而退\u002F换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"}],"serviceTypeList":[{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"},{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"供应商发货","serviceDesc":"该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"},{"serviceName":"7天无理由退货","serviceDesc":"该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
-    },{
-    "id":18068024,"name":"网易云音乐·“筷”乐金属笔（2支套装）","type":"third","category1Id":2021000,"category2Id":2023000,"labelList":[""],"tagList":["限时抢购"],"priceType":1,"brandName":"网易云音乐","suggestWord":"","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FAbt-GnrGwERg1Z98rjMNKw==\u002F109951164539022844.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FAbt-GnrGwERg1Z98rjMNKw==\u002F109951164539022844.jpg","http:\u002F\u002Fp1.music.126.net\u002FE-Lid0iB2ACLuX6a4iXkdQ==\u002F109951164297296634.jpg","http:\u002F\u002Fp1.music.126.net\u002FZotlFNsU72FBShdri4Xwag==\u002F109951164297292865.jpg","http:\u002F\u002Fp1.music.126.net\u002FyHzvxYtyFayZO_ruDw2DpQ==\u002F109951164297298036.jpg","http:\u002F\u002Fp1.music.126.net\u002FeOI4lnS27GdgjhfqGiAEXA==\u002F109951164297286948.jpg","http:\u002F\u002Fp1.music.126.net\u002FMoOiW0uq_jEe2qYQB3758Q==\u002F109951164297294669.jpg","http:\u002F\u002Fp1.music.126.net\u002Frd5y3cyMO4NZ8oGVx6503g==\u002F109951164297299016.jpg","http:\u002F\u002Fp1.music.126.net\u002F2pTmCh5bY2WWL_Ix_FXxUg==\u002F109951164297295700.jpg"],"skuList":[{"id":32343611,"productId":18068024,"price":32.9,"picUrls":[],"skuAttrList":[],"attrs":[]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FdRWSjizwHcKKuIbXHig2nA==\u002F109951164297131874.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fe_OKJkUEwOsfuXrYT0d3xA==\u002F109951164297130479.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FNg6ibFgnIQ_O4DjKrphm1g==\u002F109951164297136817.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FP2eMkjTFiLCInUmjJEeTkw==\u002F109951164297134873.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FgN2OoRYGmso83BJjqWZQ1g==\u002F109951164297135330.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FQaeL72meKNRegd09rIuAlw==\u002F109951164297137798.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FYi98Rs3hKEKUWabxUeSpdw==\u002F109951164297141564.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F91cadh7dBn1aq4EANFsh0w==\u002F109951164297137348.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fe5FVzwUO1TWZSYF_3VpxnA==\u002F109951164297132399.jpg"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E购买须知\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E商品购买成功后，在您拍下后的2个工作日内发货，法定节假日顺延，请在确认商品完好后再签收。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E若存在质量问题，请务必在签收后7天内联系客服。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E客服账号：向【云音乐客服】账号私信反馈\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货说明：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E商品在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退货注意事项：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1）商品的完整标配指原厂包装及其他所有配件；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2）因质量问题，退货运费由商家承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后商家会报销寄回的快递费（最高22元）。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货流程\u003C\u002Fspan\u003E："},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品\u003C\u002Fspan\u003E"}],"serviceTypeList":[{"serviceName":"7天无理由退货","serviceDesc":"该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"},{"serviceName":"不支持15天无忧换货","serviceDesc":"该商品不支持15天无忧换货"},{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"供应商发货","serviceDesc":"该商品由宁波典然商贸有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"},{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"},{"serviceName":"部分地区无法配送","serviceDesc":"该商品部分地区无法配送，请查阅详情页详细说明"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
+      "id": 17847134,
+      "name": "HT-08运动蓝牙耳机 3D立体声 三键线控 安卓苹果通用",
+      "type": "third",
+      "category1Id": 101000,
+      "category2Id": 1005000,
+      "labelList": [
+        "爆款"
+      ],
+      "tagList": [
+        "特价"
+      ],
+      "priceType": 1,
+      "brandName": "影巨人",
+      "suggestWord": "3D立体声 佩戴舒适 狂甩不掉 三键线控 待机时间长 连续听歌5-7小时",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/x4jKtdv6HkvEMJD2u9nYBw==/109951164170761538.jpg",
+        "http://p1.music.126.net/rEQk58J6uggyRmWEXW172w==/109951164179229364.jpg",
+        "http://p1.music.126.net/0Y4zBm83xwm1lQW6fJbKgw==/109951164170702922.jpg",
+        "http://p1.music.126.net/DcpwuYi6P1ErnnMtU1SLNQ==/109951164170707752.jpg",
+        "http://p1.music.126.net/hljFF1wCozRf6aM7KLYkDA==/109951164170710695.jpg",
+        "http://p1.music.126.net/r4pjKbb6sJXs7aX0Xfm3eg==/109951164941875249.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 32050848,
+          "productId": 17847134,
+          "price": 79,
+          "picUrls": [
+            "http://p1.music.126.net/ayGzf1iheF9WYQIDpiUmoA==/109951164170724594.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\"正品低价 品质保证</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">影巨人 HT-08 运动蓝牙耳机</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">装箱清单：耳机× 1，充电线× 1，说明书× 1。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/OFucBF9oFvUYb_E8qJdqqA==/109951164179220913.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/9BBtsH4xOvRAy5NP-JObkQ==/109951164179225197.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/Qdg3n89-QXARy4NcEaNrKA==/109951164179229617.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/qAIxhj1BB9XsNMGLk1QxqA==/109951164179225708.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/otqw_kXTMrZA9HtzC04AvA==/109951164179231075.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/4t83Xzh0GqC1FJiubPPhsQ==/109951164179227171.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/RlmidJ3GE4IWlmXiLvA8JQ==/109951164179225211.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/qAaM4n41vc-zsCuGbtWoPQ==/109951164179227661.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/2ydczyiccLvxDRixAEgRHQ==/109951164179221944.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/cuv4gqvebDeb0lcGr2MOZA==/109951164179223828.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/9PuavfbQjAER9P8mAEQtbg==/109951164179227673.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/FajPKBDOCvGIom9NFBHU9Q==/109951164179226216.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/RhNT7wGcidmy1vYvzCVS2A==/109951164179220952.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/Oyp_8vKP49kfMQbFtcjNVg==/109951164179232101.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/GYtPH1sHPdO-7hs6o7RJsQ==/109951164179229172.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "商品交易成功后会在2个工作日内由深圳市恒天鸿业科技限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："
+          },
+          {
+            "type": 1,
+            "content": "·客服账号：私信 @云音乐客服"
+          },
+          {
+            "type": 1,
+            "content": "·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"
+          },
+          {
+            "type": 1,
+            "content": "注：因质量问题而退/换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          },
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "供应商发货",
+            "serviceDesc": "该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"
+          },
+          {
+            "serviceName": "7天无理由退货",
+            "serviceDesc": "该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
     },
     {
-    "id":22054601,"name":"网易云音乐禅音帆布袋","type":"third","category1Id":1002000,"category2Id":1009000,"labelList":[""],"tagList":["特价"],"priceType":1,"brandName":"所云","suggestWord":"一音入耳来，万事离心去","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FE2VI2xZvFfXx3nYIfhGStg==\u002F109951164990307140.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FE2VI2xZvFfXx3nYIfhGStg==\u002F109951164990307140.jpg","http:\u002F\u002Fp1.music.126.net\u002F5IvmHKiJjAYTsD0Q-pqz2g==\u002F109951164990312547.jpg","http:\u002F\u002Fp1.music.126.net\u002FE0d_mmF28Ci1cz7auMwJAg==\u002F109951164990305231.jpg","http:\u002F\u002Fp1.music.126.net\u002F1IeA7cTBN5m1x8tAGwSCQw==\u002F109951164990306671.jpg","http:\u002F\u002Fp1.music.126.net\u002F3850vHQDUnyDpjp27SI5Dw==\u002F109951164990305243.jpg","http:\u002F\u002Fp1.music.126.net\u002F-fB40xb9HVVbsyLH0ZtUWA==\u002F109951164990302415.jpg"],"skuList":[{"id":39455201,"productId":22054601,"price":59,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FAWaaZYQktSvSLpIQkDHNrw==\u002F109951164990316428.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":6003,"attrValue":"黑色"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":6003,"attrValue":"黑色"}]},{"id":39455202,"productId":22054601,"price":59,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FCTaKFMYwj7yayFwJr590qA==\u002F109951164990328561.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":1527000,"attrValue":"米白色"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":1527000,"attrValue":"米白色"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E下单前请悉知\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E物流暂不配送地区：内蒙古、宁夏、青海、海南、西藏、新疆\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cbr\u003E"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FPhWTKrqMKVIJy9VTIEdRSQ==\u002F109951164990312272.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fb5JsdrVxf-fN-hYWyTefuw==\u002F109951164990316641.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FhSxOakCbhVPz3ar2oobIxw==\u002F109951164990315637.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fu0ivCQASiWEW1zJYuNm88Q==\u002F109951164990319640.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F4UGIZnVCMf5zYHssinsv0g==\u002F109951164990313373.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FG0ve5DoBDUO0Vh-oMg6kAw==\u002F109951164990321585.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FDABb5Wn55kJeDgyZH6GUhg==\u002F109951164990323027.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FtF59FgJOxZq_95C9EBIeeQ==\u002F109951164990312438.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FTeuN9O9jiRQNHz129RwkJQ==\u002F109951164990322051.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FvoShYhp7eMmMR9oO1XoNiQ==\u002F109951164990312448.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FoZ_zfQ8vQdhxgXaf_Y5MaQ==\u002F109951164990313956.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F1UHzoHu7em4p1rLLOEm4iQ==\u002F109951164990318254.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F1NNtZ6NiYsjGdgTGINe3nA==\u002F109951164990322081.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FWNkQ2lViY_5hDjUymmTcjQ==\u002F109951164990323544.jpg"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E购买须知\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E商品购买成功后，会在5个工作日内发货，法定节假日顺延，请在确认商品完好后再签收。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E若存在质量问题，请务必在签收后7天内联系客服。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E客服账号：向【云音乐客服】账号私信反馈\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E售后服务承诺：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E如何申请退换货：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1.自您签收产品快递起7日内（含），如果您所购买的产品存在质量问题，请第一时间联系网易云音乐客服（向“云音乐客服”账号私信反馈），并确认产品包装完好无破损，且吊牌挂在产品上。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2.签收后7天内在配件齐全，且不影响二次销售前提下支持无理由退换货，退款将原路返回，不同的银行处理时间不同，预计1-5个工作日到账；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货说明：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E商品在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E无法享受7天内无理由退换的情况，包括但不仅限于以下：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1）签收产品超出7天后，提出售后申请；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2）产品配件不齐全或包装不完整的；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退货注意事项：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1）商品的完整标配指原厂包装，标牌及其他所有配件；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2）因质量问题，退货运费由商家承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后商家会报销寄回的快递费（最高22元）。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货流程\u003C\u002Fspan\u003E："},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品\u003C\u002Fspan\u003E"}],"serviceTypeList":[{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
+      "id": 18068024,
+      "name": "网易云音乐·“筷”乐金属笔（2支套装）",
+      "type": "third",
+      "category1Id": 2021000,
+      "category2Id": 2023000,
+      "labelList": [
+        ""
+      ],
+      "tagList": [
+        "限时抢购"
+      ],
+      "priceType": 1,
+      "brandName": "网易云音乐",
+      "suggestWord": "",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/Abt-GnrGwERg1Z98rjMNKw==/109951164539022844.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/Abt-GnrGwERg1Z98rjMNKw==/109951164539022844.jpg",
+        "http://p1.music.126.net/E-Lid0iB2ACLuX6a4iXkdQ==/109951164297296634.jpg",
+        "http://p1.music.126.net/ZotlFNsU72FBShdri4Xwag==/109951164297292865.jpg",
+        "http://p1.music.126.net/yHzvxYtyFayZO_ruDw2DpQ==/109951164297298036.jpg",
+        "http://p1.music.126.net/eOI4lnS27GdgjhfqGiAEXA==/109951164297286948.jpg",
+        "http://p1.music.126.net/MoOiW0uq_jEe2qYQB3758Q==/109951164297294669.jpg",
+        "http://p1.music.126.net/rd5y3cyMO4NZ8oGVx6503g==/109951164297299016.jpg",
+        "http://p1.music.126.net/2pTmCh5bY2WWL_Ix_FXxUg==/109951164297295700.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 32343611,
+          "productId": 18068024,
+          "price": 32.9,
+          "picUrls": [],
+          "skuAttrList": [],
+          "attrs": []
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/dRWSjizwHcKKuIbXHig2nA==/109951164297131874.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/e_OKJkUEwOsfuXrYT0d3xA==/109951164297130479.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/Ng6ibFgnIQ_O4DjKrphm1g==/109951164297136817.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/P2eMkjTFiLCInUmjJEeTkw==/109951164297134873.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/gN2OoRYGmso83BJjqWZQ1g==/109951164297135330.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/QaeL72meKNRegd09rIuAlw==/109951164297137798.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/Yi98Rs3hKEKUWabxUeSpdw==/109951164297141564.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/91cadh7dBn1aq4EANFsh0w==/109951164297137348.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/e5FVzwUO1TWZSYF_3VpxnA==/109951164297132399.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">购买须知</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">商品购买成功后，在您拍下后的2个工作日内发货，法定节假日顺延，请在确认商品完好后再签收。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">若存在质量问题，请务必在签收后7天内联系客服。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">客服账号：向【云音乐客服】账号私信反馈</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货说明：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">商品在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退货注意事项：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1）商品的完整标配指原厂包装及其他所有配件；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2）因质量问题，退货运费由商家承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后商家会报销寄回的快递费（最高22元）。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货流程</span>："
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品</span>"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "7天无理由退货",
+            "serviceDesc": "该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"
+          },
+          {
+            "serviceName": "不支持15天无忧换货",
+            "serviceDesc": "该商品不支持15天无忧换货"
+          },
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "供应商发货",
+            "serviceDesc": "该商品由宁波典然商贸有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"
+          },
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          },
+          {
+            "serviceName": "部分地区无法配送",
+            "serviceDesc": "该商品部分地区无法配送，请查阅详情页详细说明"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
     },
     {
-      "id":17994022,"name":"H16 Pro 入耳检测开盖弹窗无线充电 蓝牙5.0真无线耳机 苹果安卓通用","type":"third","category1Id":101000,"category2Id":1005000,"labelList":["领券立减"],"tagList":["特价"],"priceType":1,"brandName":"影巨人","suggestWord":"入耳检测；无线充电；智能触控；开盖弹窗配对；3-4小时续航；双耳高清通话","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FBH7AyaJRvU335LUPh4RN8A==\u002F109951164969053931.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002F7o-O4jUayJtxGaR5LzB0Pg==\u002F109951164255220513.jpg","http:\u002F\u002Fp1.music.126.net\u002FVbOavutdyCaqx_01eTEE0Q==\u002F109951164255216254.jpg","http:\u002F\u002Fp1.music.126.net\u002FpsmFeNAvwoe2X3CD6XT2Pg==\u002F109951164255209917.jpg","http:\u002F\u002Fp1.music.126.net\u002FBH7AyaJRvU335LUPh4RN8A==\u002F109951164969053931.jpg","http:\u002F\u002Fp1.music.126.net\u002FDwzFZCqZ4NnlBMJ57vYXig==\u002F109951164969059316.jpg","http:\u002F\u002Fp1.music.126.net\u002FWLBdP4S83XBZRyXzcsFt4Q==\u002F109951164969066019.jpg","http:\u002F\u002Fp1.music.126.net\u002FXO-g0MMO2QZ6ZvAGunV2jA==\u002F109951164969057415.jpg"],"skuList":[{"id":32247692,"productId":17994022,"price":299,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FeN-oDRQCtopokoL9uzZ3hg==\u002F109951164969076635.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E正品低价 品质保证\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E影巨人 H16 Pro 蓝牙5.0真无线耳机\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E装箱清单：耳机× 1副，充电仓× 1，数据线× 1，说明书× 1。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FABeIKLc2U52SobpB2P5Wjw==\u002F109951164970377777.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FedPf7b0e-IBERRZdYUpXuw==\u002F109951164969061402.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FoPWit6OVYmUyG7_RYYtDsw==\u002F109951164969056498.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F_oQHvR2t0z6IZ0s1X8KhqA==\u002F109951164969067138.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FYVE-U95GvGcijG0RS2rLfg==\u002F109951164969067143.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FJU2tBynbiuKJk32R5CN8Xw==\u002F109951164969073005.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FFE-h5OdQQdnYsk3Vq8ZPZA==\u002F109951164969066659.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FS4pwX5ISNMHH8RN2DywBmw==\u002F109951164969063879.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FByUiIk6d_FyOJVdvIFCeaA==\u002F109951164969063446.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FUY5goN4IRyA91ge0_1RPQg==\u002F109951164969064418.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fs7NT3XQb5Qf-J5XXymi72g==\u002F109951164969068658.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F_8XcvLe4CxzjggOzkc01rg==\u002F109951164969067744.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FwrgW8-93hS9QDn_UyYTjbA==\u002F109951164969062483.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FXOLjrVDnA9PKGPY1OjjUtg==\u002F109951164970378287.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F7MlBgh2CNoMxgTBAq-E6PQ==\u002F109951164969072128.jpg"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："},{"type":1,"content":"·客服账号：私信 @云音乐客服"},{"type":1,"content":"·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"},{"type":1,"content":"注：因质量问题而退\u002F换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"}],"serviceTypeList":[{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"},{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"供应商发货","serviceDesc":"该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"},{"serviceName":"7天无理由退货","serviceDesc":"该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
+      "id": 22054601,
+      "name": "网易云音乐禅音帆布袋",
+      "type": "third",
+      "category1Id": 1002000,
+      "category2Id": 1009000,
+      "labelList": [
+        ""
+      ],
+      "tagList": [
+        "特价"
+      ],
+      "priceType": 1,
+      "brandName": "所云",
+      "suggestWord": "一音入耳来，万事离心去",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/E2VI2xZvFfXx3nYIfhGStg==/109951164990307140.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/E2VI2xZvFfXx3nYIfhGStg==/109951164990307140.jpg",
+        "http://p1.music.126.net/5IvmHKiJjAYTsD0Q-pqz2g==/109951164990312547.jpg",
+        "http://p1.music.126.net/E0d_mmF28Ci1cz7auMwJAg==/109951164990305231.jpg",
+        "http://p1.music.126.net/1IeA7cTBN5m1x8tAGwSCQw==/109951164990306671.jpg",
+        "http://p1.music.126.net/3850vHQDUnyDpjp27SI5Dw==/109951164990305243.jpg",
+        "http://p1.music.126.net/-fB40xb9HVVbsyLH0ZtUWA==/109951164990302415.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 39455201,
+          "productId": 22054601,
+          "price": 59,
+          "picUrls": [
+            "http://p1.music.126.net/AWaaZYQktSvSLpIQkDHNrw==/109951164990316428.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 6003,
+              "attrValue": "黑色"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 6003,
+              "attrValue": "黑色"
+            }
+          ]
+        },
+        {
+          "id": 39455202,
+          "productId": 22054601,
+          "price": 59,
+          "picUrls": [
+            "http://p1.music.126.net/CTaKFMYwj7yayFwJr590qA==/109951164990328561.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 1527000,
+              "attrValue": "米白色"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 1527000,
+              "attrValue": "米白色"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">下单前请悉知</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">物流暂不配送地区：内蒙古、宁夏、青海、海南、西藏、新疆</span> "
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/PhWTKrqMKVIJy9VTIEdRSQ==/109951164990312272.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/b5JsdrVxf-fN-hYWyTefuw==/109951164990316641.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/hSxOakCbhVPz3ar2oobIxw==/109951164990315637.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/u0ivCQASiWEW1zJYuNm88Q==/109951164990319640.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/4UGIZnVCMf5zYHssinsv0g==/109951164990313373.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/G0ve5DoBDUO0Vh-oMg6kAw==/109951164990321585.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/DABb5Wn55kJeDgyZH6GUhg==/109951164990323027.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/tF59FgJOxZq_95C9EBIeeQ==/109951164990312438.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/TeuN9O9jiRQNHz129RwkJQ==/109951164990322051.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/voShYhp7eMmMR9oO1XoNiQ==/109951164990312448.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/oZ_zfQ8vQdhxgXaf_Y5MaQ==/109951164990313956.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/1UHzoHu7em4p1rLLOEm4iQ==/109951164990318254.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/1NNtZ6NiYsjGdgTGINe3nA==/109951164990322081.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/WNkQ2lViY_5hDjUymmTcjQ==/109951164990323544.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">购买须知</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">商品购买成功后，会在5个工作日内发货，法定节假日顺延，请在确认商品完好后再签收。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">若存在质量问题，请务必在签收后7天内联系客服。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">客服账号：向【云音乐客服】账号私信反馈</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">售后服务承诺：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">如何申请退换货：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1.自您签收产品快递起7日内（含），如果您所购买的产品存在质量问题，请第一时间联系网易云音乐客服（向“云音乐客服”账号私信反馈），并确认产品包装完好无破损，且吊牌挂在产品上。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2.签收后7天内在配件齐全，且不影响二次销售前提下支持无理由退换货，退款将原路返回，不同的银行处理时间不同，预计1-5个工作日到账；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货说明：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">商品在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">无法享受7天内无理由退换的情况，包括但不仅限于以下：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1）签收产品超出7天后，提出售后申请；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2）产品配件不齐全或包装不完整的；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退货注意事项：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1）商品的完整标配指原厂包装，标牌及其他所有配件；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2）因质量问题，退货运费由商家承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后商家会报销寄回的快递费（最高22元）。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货流程</span>："
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品</span>"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
     },
     {
-      "id":21814642,"name":"影巨人 SUP经典掌上游戏机 老式怀旧款 复古迷你","type":"third","category1Id":101000,"category2Id":1007000,"labelList":["领券"],"tagList":[],"priceType":1,"brandName":"影巨人","suggestWord":"400款经典游戏；感受童年画面；支持双人对战；支持电视输出；小巧轻便","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FD2s-rwzKylpr4w9mmPUCBA==\u002F109951164474058531.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FD2s-rwzKylpr4w9mmPUCBA==\u002F109951164474058531.jpg","http:\u002F\u002Fp1.music.126.net\u002FHoX0o1lzMiLVQh_b7Zq_Kg==\u002F109951164474053743.jpg","http:\u002F\u002Fp1.music.126.net\u002Fd5NMXaDPP0xuuFGHHoXyGw==\u002F109951164474055210.jpg","http:\u002F\u002Fp1.music.126.net\u002FW00kZysWbVSfSkmVjpXPVA==\u002F109951164474054231.jpg","http:\u002F\u002Fp1.music.126.net\u002FzKe5gneeNRm5Vg8tvr4gBQ==\u002F109951164474058535.jpg","http:\u002F\u002Fp1.music.126.net\u002F43FQRFLZCK354HuFtDWVmg==\u002F109951164474052799.jpg","http:\u002F\u002Fp1.music.126.net\u002FhiFZdnOfd-_aHL90SJN0Iw==\u002F109951164474060511.jpg","http:\u002F\u002Fp1.music.126.net\u002FxtYOBJqSU1E-gZM9Ss3AtA==\u002F109951164474047467.jpg"],"skuList":[{"id":39062665,"productId":21814642,"price":99,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FFQSVZFfqywWRKIMRNIxrjg==\u002F109951164474057297.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":5166400,"attrValue":"黑色单人版"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":5166400,"attrValue":"黑色单人版"}]},{"id":39062666,"productId":21814642,"price":109,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002Fu-N1i1eNsTxBO4vec4tS-w==\u002F109951164474054869.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":5166401,"attrValue":"黑色双人版"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":5166401,"attrValue":"黑色双人版"}]},{"id":39062667,"productId":21814642,"price":99,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FmKt-6zAXpCNJ-3edpUDy8w==\u002F109951164474064526.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":5165401,"attrValue":"红色单人版"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":5165401,"attrValue":"红色单人版"}]},{"id":39062668,"productId":21814642,"price":109,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002F_vSsdH5t26yV9jjdEp-ebw==\u002F109951164474055870.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":5167400,"attrValue":"红色双人版"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":5167400,"attrValue":"红色双人版"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E正品低价 品质保证\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E装箱清单：游戏机× 1、 AV连接线× 1、 数据线× 1、 说明书× 1。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E该产品一经拆封，非质量问题不接受7天无理由退换货。"},{"type":1,"content":"建议开始使用前先撕掉屏幕保护膜，以获得更好的使用体验。\u003C\u002Fspan\u003E"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FPEDesNkiUitSbTQJhn5diQ==\u002F109951164474046259.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FqIRTdszZ1o-R1S-6R83edg==\u002F109951164474048196.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FufJ6Lugq12rEA5-PZIWttQ==\u002F109951164474045784.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FQ4LjUaWKQ2A34Hlxb5jS5Q==\u002F109951164474049654.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F6ldy427b9GkPVfv-gJ-oEw==\u002F109951164474051133.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FjYD5x5nXm0RN9TqbeyIc9g==\u002F109951164474042952.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FBYYchF-RWS8BPvlE1qoouA==\u002F109951164474042472.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FACnfRpGHd5dumYGCHMiCaA==\u002F109951164474047207.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FAWhbFRAb9amLbYQyyeQpuQ==\u002F109951164474047210.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FkzEC4Igyx3dgIt3jH8h6BA==\u002F109951164474043452.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FCpSLEuXDg311QBcrLlPQ6Q==\u002F109951164474046756.jpg"},{"type":1,"content":"\u003Cbr\u003E "},{"type":1,"content":"商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："},{"type":1,"content":"·客服账号：私信 \u003Ca href=\"https:\u002F\u002Fmusic.163.com\u002F#\u002Fuser\u002Fhome?id=253335632\" rel=\"nofollow\" style=\"color:#507daf;\"\u003E@云音乐客服\u003C\u002Fa\u003E"},{"type":1,"content":"·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"},{"type":1,"content":"注：因质量问题而退\u002F换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"}],"serviceTypeList":[{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"},{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"供应商发货","serviceDesc":"该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
+      "id": 17994022,
+      "name": "H16 Pro 入耳检测开盖弹窗无线充电 蓝牙5.0真无线耳机 苹果安卓通用",
+      "type": "third",
+      "category1Id": 101000,
+      "category2Id": 1005000,
+      "labelList": [
+        "领券立减"
+      ],
+      "tagList": [
+        "特价"
+      ],
+      "priceType": 1,
+      "brandName": "影巨人",
+      "suggestWord": "入耳检测；无线充电；智能触控；开盖弹窗配对；3-4小时续航；双耳高清通话",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/BH7AyaJRvU335LUPh4RN8A==/109951164969053931.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/7o-O4jUayJtxGaR5LzB0Pg==/109951164255220513.jpg",
+        "http://p1.music.126.net/VbOavutdyCaqx_01eTEE0Q==/109951164255216254.jpg",
+        "http://p1.music.126.net/psmFeNAvwoe2X3CD6XT2Pg==/109951164255209917.jpg",
+        "http://p1.music.126.net/BH7AyaJRvU335LUPh4RN8A==/109951164969053931.jpg",
+        "http://p1.music.126.net/DwzFZCqZ4NnlBMJ57vYXig==/109951164969059316.jpg",
+        "http://p1.music.126.net/WLBdP4S83XBZRyXzcsFt4Q==/109951164969066019.jpg",
+        "http://p1.music.126.net/XO-g0MMO2QZ6ZvAGunV2jA==/109951164969057415.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 32247692,
+          "productId": 17994022,
+          "price": 299,
+          "picUrls": [
+            "http://p1.music.126.net/eN-oDRQCtopokoL9uzZ3hg==/109951164969076635.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">正品低价 品质保证</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">影巨人 H16 Pro 蓝牙5.0真无线耳机</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">装箱清单：耳机× 1副，充电仓× 1，数据线× 1，说明书× 1。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ABeIKLc2U52SobpB2P5Wjw==/109951164970377777.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/edPf7b0e-IBERRZdYUpXuw==/109951164969061402.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/oPWit6OVYmUyG7_RYYtDsw==/109951164969056498.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/_oQHvR2t0z6IZ0s1X8KhqA==/109951164969067138.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/YVE-U95GvGcijG0RS2rLfg==/109951164969067143.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/JU2tBynbiuKJk32R5CN8Xw==/109951164969073005.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/FE-h5OdQQdnYsk3Vq8ZPZA==/109951164969066659.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/S4pwX5ISNMHH8RN2DywBmw==/109951164969063879.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ByUiIk6d_FyOJVdvIFCeaA==/109951164969063446.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/UY5goN4IRyA91ge0_1RPQg==/109951164969064418.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/s7NT3XQb5Qf-J5XXymi72g==/109951164969068658.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/_8XcvLe4CxzjggOzkc01rg==/109951164969067744.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/wrgW8-93hS9QDn_UyYTjbA==/109951164969062483.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/XOLjrVDnA9PKGPY1OjjUtg==/109951164970378287.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/7MlBgh2CNoMxgTBAq-E6PQ==/109951164969072128.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："
+          },
+          {
+            "type": 1,
+            "content": "·客服账号：私信 @云音乐客服"
+          },
+          {
+            "type": 1,
+            "content": "·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"
+          },
+          {
+            "type": 1,
+            "content": "注：因质量问题而退/换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          },
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "供应商发货",
+            "serviceDesc": "该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"
+          },
+          {
+            "serviceName": "7天无理由退货",
+            "serviceDesc": "该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
     },
     {
-      "id":22081600,"name":"网易云音乐玩乐系列TPU口袋黑色短袖T恤","type":"yx","category1Id":1002000,"category2Id":1008000,"labelList":["预售"],"tagList":["包邮"],"priceType":1,"brandName":"网易云音乐","suggestWord":"","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FURl-l-SM0UebMA0RMCt66w==\u002F109951165018073724.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FCPGJh5Jl7pl0Wwrg8bzLCg==\u002F109951165015751779.jpg","http:\u002F\u002Fp1.music.126.net\u002F5m1WPYy8xL9-qefdLfGN0g==\u002F109951165017205028.jpg","http:\u002F\u002Fp1.music.126.net\u002FABLeSSR-LLbIol-udd_MfA==\u002F109951165017197295.jpg","http:\u002F\u002Fp1.music.126.net\u002FDQ-CPcSer9XOvcCT4nfCzw==\u002F109951165017196784.jpg","http:\u002F\u002Fp1.music.126.net\u002FnYA2qACpqq2EbtD0tgb9Pw==\u002F109951165017197296.jpg","http:\u002F\u002Fp1.music.126.net\u002F6WksnMpKGWjxOuyocxwTnQ==\u002F109951165017100173.jpg","http:\u002F\u002Fp1.music.126.net\u002FURl-l-SM0UebMA0RMCt66w==\u002F109951165018073724.jpg"],"skuList":[{"id":39485200,"productId":22081600,"price":129,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FuPf9rDfFWgid5eU-yNZklA==\u002F109951165017198287.jpg"],"skuAttrList":[{"attrId":595800,"attr":"颜色","attrValueId":5599402,"attrValue":"黑色"},{"attrId":595801,"attr":"尺码","attrValueId":5599403,"attrValue":"M"}],"attrs":[{"attrId":595800,"attr":"颜色","attrValueId":5599402,"attrValue":"黑色"},{"attrId":595801,"attr":"尺码","attrValueId":5599403,"attrValue":"M"}]},{"id":39485201,"productId":22081600,"price":129,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FOtm5r-0PaiQg6pfLww9ksA==\u002F109951165017197299.jpg"],"skuAttrList":[{"attrId":595800,"attr":"颜色","attrValueId":5599402,"attrValue":"黑色"},{"attrId":595801,"attr":"尺码","attrValueId":5599404,"attrValue":"L"}],"attrs":[{"attrId":595800,"attr":"颜色","attrValueId":5599402,"attrValue":"黑色"},{"attrId":595801,"attr":"尺码","attrValueId":5599404,"attrValue":"L"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FgweMB-gAMB29HjwMbY97bA==\u002F109951165017094469.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FyCkGcIHArec5MH5bYaND8A==\u002F109951165017094984.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F-fW-AKzWtQwVqVofbKDXtA==\u002F109951165017097352.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FwYcBi6FH1v8ptZQoSYFPpw==\u002F109951165017101646.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FuUBUJKPXviy56jxOqViK2g==\u002F109951165017106011.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fkn7eEdfUES5EbDoUywx3KQ==\u002F109951165017107010.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FgKITlRwsBk_-531Qb1a30w==\u002F109951165017097816.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FXzocG0xJmrFoVteudZoRXQ==\u002F109951165017098718.jpg"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E购买须知\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E商品购买成功后，会在48小时内发货，法定节假日顺延，请在确认商品完好后再签收。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E若存在质量问题，请务必在签收后7天内联系客服。\u003C\u002Fspan\u003E "},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E客服账号：向【云音乐客服】账号私信反馈\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E售后服务承诺：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E如何申请退换货：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1.自您签收产品快递起7日内（含），如果您所购买的产品存在质量问题，请第一时间联系网易云音乐客服（向“云音乐客服”账号私信反馈），并确认产品包装完好无破损，且吊牌挂在产品上。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2.签收后7天内在配件齐全，且不影响二次销售前提下支持无理由退换货，退款将原路返回，不同的银行处理时间不同，预计1-5个工作日到账；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货说明：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E无法享受7天内无理由退换的情况，包括但不仅限于以下：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1）签收产品超出7天后，提出售后申请；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2）产品配件不齐全或包装不完整的；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E3）人为原因，包括下水洗涤，剪标，人为污损的；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E4）非产品本身原因出现破损（如宠物撕咬、不小心被尖锐物勾扯等）；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E5）正常的面料特性，如：深色衣服第一次下水轻微褪色和浮毛；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E6）因使用者保养不当造成产品出现质量问题（如高温熨烫等）。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退货注意事项：\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E1）商品的完整标配指原厂包装，标牌及其他所有配件；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E2）因质量问题，退货运费由网易云音乐承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后网易云音乐会报销寄回的快递费（最高22元），请将快递发票随货寄出（无发票不报销）。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E退换货流程\u003C\u002Fspan\u003E："},{"type":1,"content":"\u003Cspan style=\"color:#707070;\"\u003E向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品\u003C\u002Fspan\u003E"}],"serviceTypeList":[{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
-    },{
-      "id":1908600,"name":"H16 Pro 入耳检测开盖弹窗无线充电 蓝牙5.0真无线耳机 苹果安卓通用","type":"third","category1Id":101000,"category2Id":1005000,"labelList":["领券立减"],"tagList":["特价"],"priceType":1,"brandName":"影巨人","suggestWord":"入耳检测；无线充电；智能触控；开盖弹窗配对；3-4小时续航；双耳高清通话","suggestUrl":null,"coverUrl":"http:\u002F\u002Fp1.music.126.net\u002FBH7AyaJRvU335LUPh4RN8A==\u002F109951164969053931.jpg","coverVideoId":null,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002F7o-O4jUayJtxGaR5LzB0Pg==\u002F109951164255220513.jpg","http:\u002F\u002Fp1.music.126.net\u002FVbOavutdyCaqx_01eTEE0Q==\u002F109951164255216254.jpg","http:\u002F\u002Fp1.music.126.net\u002FpsmFeNAvwoe2X3CD6XT2Pg==\u002F109951164255209917.jpg","http:\u002F\u002Fp1.music.126.net\u002FBH7AyaJRvU335LUPh4RN8A==\u002F109951164969053931.jpg","http:\u002F\u002Fp1.music.126.net\u002FDwzFZCqZ4NnlBMJ57vYXig==\u002F109951164969059316.jpg","http:\u002F\u002Fp1.music.126.net\u002FWLBdP4S83XBZRyXzcsFt4Q==\u002F109951164969066019.jpg","http:\u002F\u002Fp1.music.126.net\u002FXO-g0MMO2QZ6ZvAGunV2jA==\u002F109951164969057415.jpg"],"skuList":[{"id":32247692,"productId":1908600,"price":299,"picUrls":["http:\u002F\u002Fp1.music.126.net\u002FeN-oDRQCtopokoL9uzZ3hg==\u002F109951164969076635.jpg"],"skuAttrList":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}],"attrs":[{"attrId":2001,"attr":"颜色","attrValueId":350055,"attrValue":"白色"}]}],"detail":{"descType":0,"richTextDesc":null,"descList":[{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E正品低价 品质保证\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"font-weight:bold;\"\u003E影巨人 H16 Pro 蓝牙5.0真无线耳机\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cspan style=\"color:#ff0000;\"\u003E装箱清单：耳机× 1副，充电仓× 1，数据线× 1，说明书× 1。\u003C\u002Fspan\u003E"},{"type":1,"content":"\u003Cbr\u003E"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FABeIKLc2U52SobpB2P5Wjw==\u002F109951164970377777.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FedPf7b0e-IBERRZdYUpXuw==\u002F109951164969061402.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FoPWit6OVYmUyG7_RYYtDsw==\u002F109951164969056498.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F_oQHvR2t0z6IZ0s1X8KhqA==\u002F109951164969067138.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FYVE-U95GvGcijG0RS2rLfg==\u002F109951164969067143.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FJU2tBynbiuKJk32R5CN8Xw==\u002F109951164969073005.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FFE-h5OdQQdnYsk3Vq8ZPZA==\u002F109951164969066659.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FS4pwX5ISNMHH8RN2DywBmw==\u002F109951164969063879.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FByUiIk6d_FyOJVdvIFCeaA==\u002F109951164969063446.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FUY5goN4IRyA91ge0_1RPQg==\u002F109951164969064418.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002Fs7NT3XQb5Qf-J5XXymi72g==\u002F109951164969068658.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F_8XcvLe4CxzjggOzkc01rg==\u002F109951164969067744.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FwrgW8-93hS9QDn_UyYTjbA==\u002F109951164969062483.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002FXOLjrVDnA9PKGPY1OjjUtg==\u002F109951164970378287.jpg"},{"type":2,"content":"http:\u002F\u002Fp1.music.126.net\u002F7MlBgh2CNoMxgTBAq-E6PQ==\u002F109951164969072128.jpg"},{"type":1,"content":"\u003Cbr\u003E"},{"type":1,"content":"商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："},{"type":1,"content":"·客服账号：私信 @云音乐客服"},{"type":1,"content":"·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"},{"type":1,"content":"注：因质量问题而退\u002F换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"}],"serviceTypeList":[{"serviceName":"网易自营","serviceDesc":"该商品均为网易自营，品质保证"},{"serviceName":"满119包邮","serviceDesc":"单笔订单金额（不含运费）满119元享受包邮服务"},{"serviceName":"供应商发货","serviceDesc":"该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"},{"serviceName":"7天无理由退货","serviceDesc":"该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"}],"videoId":""},"buyLimit":{"levelLimit":0,"vipLimit":false,"allowDupBuy":true},"canAddCart":true,"status":0
+      "id": 21814642,
+      "name": "影巨人 SUP经典掌上游戏机 老式怀旧款 复古迷你",
+      "type": "third",
+      "category1Id": 101000,
+      "category2Id": 1007000,
+      "labelList": [
+        "领券"
+      ],
+      "tagList": [],
+      "priceType": 1,
+      "brandName": "影巨人",
+      "suggestWord": "400款经典游戏；感受童年画面；支持双人对战；支持电视输出；小巧轻便",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/D2s-rwzKylpr4w9mmPUCBA==/109951164474058531.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/D2s-rwzKylpr4w9mmPUCBA==/109951164474058531.jpg",
+        "http://p1.music.126.net/HoX0o1lzMiLVQh_b7Zq_Kg==/109951164474053743.jpg",
+        "http://p1.music.126.net/d5NMXaDPP0xuuFGHHoXyGw==/109951164474055210.jpg",
+        "http://p1.music.126.net/W00kZysWbVSfSkmVjpXPVA==/109951164474054231.jpg",
+        "http://p1.music.126.net/zKe5gneeNRm5Vg8tvr4gBQ==/109951164474058535.jpg",
+        "http://p1.music.126.net/43FQRFLZCK354HuFtDWVmg==/109951164474052799.jpg",
+        "http://p1.music.126.net/hiFZdnOfd-_aHL90SJN0Iw==/109951164474060511.jpg",
+        "http://p1.music.126.net/xtYOBJqSU1E-gZM9Ss3AtA==/109951164474047467.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 39062665,
+          "productId": 21814642,
+          "price": 99,
+          "picUrls": [
+            "http://p1.music.126.net/FQSVZFfqywWRKIMRNIxrjg==/109951164474057297.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5166400,
+              "attrValue": "黑色单人版"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5166400,
+              "attrValue": "黑色单人版"
+            }
+          ]
+        },
+        {
+          "id": 39062666,
+          "productId": 21814642,
+          "price": 109,
+          "picUrls": [
+            "http://p1.music.126.net/u-N1i1eNsTxBO4vec4tS-w==/109951164474054869.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5166401,
+              "attrValue": "黑色双人版"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5166401,
+              "attrValue": "黑色双人版"
+            }
+          ]
+        },
+        {
+          "id": 39062667,
+          "productId": 21814642,
+          "price": 99,
+          "picUrls": [
+            "http://p1.music.126.net/mKt-6zAXpCNJ-3edpUDy8w==/109951164474064526.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5165401,
+              "attrValue": "红色单人版"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5165401,
+              "attrValue": "红色单人版"
+            }
+          ]
+        },
+        {
+          "id": 39062668,
+          "productId": 21814642,
+          "price": 109,
+          "picUrls": [
+            "http://p1.music.126.net/_vSsdH5t26yV9jjdEp-ebw==/109951164474055870.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5167400,
+              "attrValue": "红色双人版"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 5167400,
+              "attrValue": "红色双人版"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">正品低价 品质保证</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">装箱清单：游戏机× 1、 AV连接线× 1、 数据线× 1、 说明书× 1。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">该产品一经拆封，非质量问题不接受7天无理由退换货。"
+          },
+          {
+            "type": 1,
+            "content": "建议开始使用前先撕掉屏幕保护膜，以获得更好的使用体验。</span>"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/PEDesNkiUitSbTQJhn5diQ==/109951164474046259.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/qIRTdszZ1o-R1S-6R83edg==/109951164474048196.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ufJ6Lugq12rEA5-PZIWttQ==/109951164474045784.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/Q4LjUaWKQ2A34Hlxb5jS5Q==/109951164474049654.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/6ldy427b9GkPVfv-gJ-oEw==/109951164474051133.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/jYD5x5nXm0RN9TqbeyIc9g==/109951164474042952.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/BYYchF-RWS8BPvlE1qoouA==/109951164474042472.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ACnfRpGHd5dumYGCHMiCaA==/109951164474047207.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/AWhbFRAb9amLbYQyyeQpuQ==/109951164474047210.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/kzEC4Igyx3dgIt3jH8h6BA==/109951164474043452.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/CpSLEuXDg311QBcrLlPQ6Q==/109951164474046756.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br> "
+          },
+          {
+            "type": 1,
+            "content": "商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："
+          },
+          {
+            "type": 1,
+            "content": "·客服账号：私信 <a href=\"https://music.163.com/#/user/home?id=253335632\" rel=\"nofollow\" style=\"color:#507daf;\">@云音乐客服</a>"
+          },
+          {
+            "type": 1,
+            "content": "·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"
+          },
+          {
+            "type": 1,
+            "content": "注：因质量问题而退/换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          },
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "供应商发货",
+            "serviceDesc": "该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
+    },
+    {
+      "id": 22081600,
+      "name": "网易云音乐玩乐系列TPU口袋黑色短袖T恤",
+      "type": "yx",
+      "category1Id": 1002000,
+      "category2Id": 1008000,
+      "labelList": [
+        "预售"
+      ],
+      "tagList": [
+        "包邮"
+      ],
+      "priceType": 1,
+      "brandName": "网易云音乐",
+      "suggestWord": "",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/URl-l-SM0UebMA0RMCt66w==/109951165018073724.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/CPGJh5Jl7pl0Wwrg8bzLCg==/109951165015751779.jpg",
+        "http://p1.music.126.net/5m1WPYy8xL9-qefdLfGN0g==/109951165017205028.jpg",
+        "http://p1.music.126.net/ABLeSSR-LLbIol-udd_MfA==/109951165017197295.jpg",
+        "http://p1.music.126.net/DQ-CPcSer9XOvcCT4nfCzw==/109951165017196784.jpg",
+        "http://p1.music.126.net/nYA2qACpqq2EbtD0tgb9Pw==/109951165017197296.jpg",
+        "http://p1.music.126.net/6WksnMpKGWjxOuyocxwTnQ==/109951165017100173.jpg",
+        "http://p1.music.126.net/URl-l-SM0UebMA0RMCt66w==/109951165018073724.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 39485200,
+          "productId": 22081600,
+          "price": 129,
+          "picUrls": [
+            "http://p1.music.126.net/uPf9rDfFWgid5eU-yNZklA==/109951165017198287.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 595800,
+              "attr": "颜色",
+              "attrValueId": 5599402,
+              "attrValue": "黑色"
+            },
+            {
+              "attrId": 595801,
+              "attr": "尺码",
+              "attrValueId": 5599403,
+              "attrValue": "M"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 595800,
+              "attr": "颜色",
+              "attrValueId": 5599402,
+              "attrValue": "黑色"
+            },
+            {
+              "attrId": 595801,
+              "attr": "尺码",
+              "attrValueId": 5599403,
+              "attrValue": "M"
+            }
+          ]
+        },
+        {
+          "id": 39485201,
+          "productId": 22081600,
+          "price": 129,
+          "picUrls": [
+            "http://p1.music.126.net/Otm5r-0PaiQg6pfLww9ksA==/109951165017197299.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 595800,
+              "attr": "颜色",
+              "attrValueId": 5599402,
+              "attrValue": "黑色"
+            },
+            {
+              "attrId": 595801,
+              "attr": "尺码",
+              "attrValueId": 5599404,
+              "attrValue": "L"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 595800,
+              "attr": "颜色",
+              "attrValueId": 5599402,
+              "attrValue": "黑色"
+            },
+            {
+              "attrId": 595801,
+              "attr": "尺码",
+              "attrValueId": 5599404,
+              "attrValue": "L"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/gweMB-gAMB29HjwMbY97bA==/109951165017094469.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/yCkGcIHArec5MH5bYaND8A==/109951165017094984.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/-fW-AKzWtQwVqVofbKDXtA==/109951165017097352.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/wYcBi6FH1v8ptZQoSYFPpw==/109951165017101646.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/uUBUJKPXviy56jxOqViK2g==/109951165017106011.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/kn7eEdfUES5EbDoUywx3KQ==/109951165017107010.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/gKITlRwsBk_-531Qb1a30w==/109951165017097816.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/XzocG0xJmrFoVteudZoRXQ==/109951165017098718.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">购买须知</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">商品购买成功后，会在48小时内发货，法定节假日顺延，请在确认商品完好后再签收。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">若存在质量问题，请务必在签收后7天内联系客服。</span> "
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">客服账号：向【云音乐客服】账号私信反馈</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">售后服务承诺：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">如何申请退换货：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1.自您签收产品快递起7日内（含），如果您所购买的产品存在质量问题，请第一时间联系网易云音乐客服（向“云音乐客服”账号私信反馈），并确认产品包装完好无破损，且吊牌挂在产品上。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2.签收后7天内在配件齐全，且不影响二次销售前提下支持无理由退换货，退款将原路返回，不同的银行处理时间不同，预计1-5个工作日到账；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货说明：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">在退换时应当保证产品完好、配件齐全，且不影响二次销售。遭人为污损的商品不提供7天无理由退换货服务，敬请谅解。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">无法享受7天内无理由退换的情况，包括但不仅限于以下：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1）签收产品超出7天后，提出售后申请；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2）产品配件不齐全或包装不完整的；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">3）人为原因，包括下水洗涤，剪标，人为污损的；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">4）非产品本身原因出现破损（如宠物撕咬、不小心被尖锐物勾扯等）；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">5）正常的面料特性，如：深色衣服第一次下水轻微褪色和浮毛；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">6）因使用者保养不当造成产品出现质量问题（如高温熨烫等）。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退货注意事项：</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">1）商品的完整标配指原厂包装，标牌及其他所有配件；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">2）因质量问题，退货运费由网易云音乐承担；因个人原因（包括大小不合适，色差问题，个人不喜欢不满意等退货或者更换尺寸）产生的寄回运费，由用户个人承担；</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">3）请您支付寄回的快递费（到付件一律拒收），核对为质量问题后网易云音乐会报销寄回的快递费（最高22元），请将快递发票随货寄出（无发票不报销）。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">退换货流程</span>："
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#707070;\">向客服申请退货—客服审核—审核通过后，用户寄回商品—验收核对—退款或重新寄出商品</span>"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
+    },
+    {
+      "id": 1908600,
+      "name": "H16 Pro 入耳检测开盖弹窗无线充电 蓝牙5.0真无线耳机 苹果安卓通用",
+      "type": "third",
+      "category1Id": 101000,
+      "category2Id": 1005000,
+      "labelList": [
+        "领券立减"
+      ],
+      "tagList": [
+        "特价"
+      ],
+      "priceType": 1,
+      "brandName": "影巨人",
+      "suggestWord": "入耳检测；无线充电；智能触控；开盖弹窗配对；3-4小时续航；双耳高清通话",
+      "suggestUrl": null,
+      "coverUrl": "http://p1.music.126.net/BH7AyaJRvU335LUPh4RN8A==/109951164969053931.jpg",
+      "coverVideoId": null,
+      "picUrls": [
+        "http://p1.music.126.net/7o-O4jUayJtxGaR5LzB0Pg==/109951164255220513.jpg",
+        "http://p1.music.126.net/VbOavutdyCaqx_01eTEE0Q==/109951164255216254.jpg",
+        "http://p1.music.126.net/psmFeNAvwoe2X3CD6XT2Pg==/109951164255209917.jpg",
+        "http://p1.music.126.net/BH7AyaJRvU335LUPh4RN8A==/109951164969053931.jpg",
+        "http://p1.music.126.net/DwzFZCqZ4NnlBMJ57vYXig==/109951164969059316.jpg",
+        "http://p1.music.126.net/WLBdP4S83XBZRyXzcsFt4Q==/109951164969066019.jpg",
+        "http://p1.music.126.net/XO-g0MMO2QZ6ZvAGunV2jA==/109951164969057415.jpg"
+      ],
+      "skuList": [
+        {
+          "id": 32247692,
+          "productId": 1908600,
+          "price": 299,
+          "picUrls": [
+            "http://p1.music.126.net/eN-oDRQCtopokoL9uzZ3hg==/109951164969076635.jpg"
+          ],
+          "skuAttrList": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ],
+          "attrs": [
+            {
+              "attrId": 2001,
+              "attr": "颜色",
+              "attrValueId": 350055,
+              "attrValue": "白色"
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "descType": 0,
+        "richTextDesc": null,
+        "descList": [
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">正品低价 品质保证</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"font-weight:bold;\">影巨人 H16 Pro 蓝牙5.0真无线耳机</span>"
+          },
+          {
+            "type": 1,
+            "content": "<span style=\"color:#ff0000;\">装箱清单：耳机× 1副，充电仓× 1，数据线× 1，说明书× 1。</span>"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ABeIKLc2U52SobpB2P5Wjw==/109951164970377777.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/edPf7b0e-IBERRZdYUpXuw==/109951164969061402.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/oPWit6OVYmUyG7_RYYtDsw==/109951164969056498.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/_oQHvR2t0z6IZ0s1X8KhqA==/109951164969067138.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/YVE-U95GvGcijG0RS2rLfg==/109951164969067143.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/JU2tBynbiuKJk32R5CN8Xw==/109951164969073005.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/FE-h5OdQQdnYsk3Vq8ZPZA==/109951164969066659.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/S4pwX5ISNMHH8RN2DywBmw==/109951164969063879.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/ByUiIk6d_FyOJVdvIFCeaA==/109951164969063446.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/UY5goN4IRyA91ge0_1RPQg==/109951164969064418.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/s7NT3XQb5Qf-J5XXymi72g==/109951164969068658.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/_8XcvLe4CxzjggOzkc01rg==/109951164969067744.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/wrgW8-93hS9QDn_UyYTjbA==/109951164969062483.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/XOLjrVDnA9PKGPY1OjjUtg==/109951164970378287.jpg"
+          },
+          {
+            "type": 2,
+            "content": "http://p1.music.126.net/7MlBgh2CNoMxgTBAq-E6PQ==/109951164969072128.jpg"
+          },
+          {
+            "type": 1,
+            "content": "<br>"
+          },
+          {
+            "type": 1,
+            "content": "商品交易成功后会在2个工作日内由深圳市恒天鸿业科技有限公司发货，法定节假日顺延，请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服："
+          },
+          {
+            "type": 1,
+            "content": "·客服账号：私信 @云音乐客服"
+          },
+          {
+            "type": 1,
+            "content": "·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。"
+          },
+          {
+            "type": 1,
+            "content": "注：因质量问题而退/换货所产生的运费报销最高15元，且须提供运费支付凭据，可寄出平邮，不支持顺丰，不支持到付。"
+          }
+        ],
+        "serviceTypeList": [
+          {
+            "serviceName": "网易自营",
+            "serviceDesc": "该商品均为网易自营，品质保证"
+          },
+          {
+            "serviceName": "满119包邮",
+            "serviceDesc": "单笔订单金额（不含运费）满119元享受包邮服务"
+          },
+          {
+            "serviceName": "供应商发货",
+            "serviceDesc": "该商品由深圳市恒天鸿业科技有限公司在2个工作日内发货（法定节假日顺延）。严格审核供应商资质，正品保证，100%正规渠道商品"
+          },
+          {
+            "serviceName": "7天无理由退货",
+            "serviceDesc": "该商品支持7天无理由退货，买家在商品签收日起7天内可在线发起退货申请"
+          }
+        ],
+        "videoId": ""
+      },
+      "buyLimit": {
+        "levelLimit": 0,
+        "vipLimit": false,
+        "allowDupBuy": true
+      },
+      "canAddCart": true,
+      "status": 0
     }
   ]
 }

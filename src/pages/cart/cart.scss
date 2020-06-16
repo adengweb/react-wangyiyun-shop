@@ -1,4 +1,149 @@
+.mod-cart{
+  .tips{
+    padding:0.3rem 0.75rem;
+    color: #d33a31;
+  }
+  padding-bottom: 3rem;
+}
+.cart-bar{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #eee;
+  .paybtn{
+    width: 5.6rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    font-size: 0.9rem;
+    // font-weight: bold;
+    color: #fff;
+    background: #d33a31;
+    &.dis{
+      background: #ccc;
+    }
+  }
+  .inner{
+    flex: 1;
+    padding-right: 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .cprice{
+      width: 100%;
+      font-size: 0.7rem;
+      text-align: right;
+      .red{
+        color: #d33a31;
+        .val{
+          font-size: 1rem;
+        }
+      }
+    }
+    .freight{
+      color: #999;
+    }
+  }
+}
 .car-list{
   margin-bottom: 0.5rem;
   background: #fff;
+  .tit{
+    padding: 0.6rem 0.75rem;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #eee;
+  }
+  li{
+    display: flex;
+    &:last-of-type{
+      .cnt{
+        border: 0;
+      }
+    }
+    .chebox{
+      padding: 0 .4rem;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+    }
+    .imgbox{
+      width: 4.5rem;
+      padding: 0 0.5rem;
+      box-sizing: border-box;
+      text-align: center;
+      img{
+        width: 100%;
+      }
+    }
+    .cnt{
+      flex: 1;
+      padding:0.3rem 0.5rem 0.3rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    .name{
+      display: flex;
+      font-size: 0.75rem;
+      .t{
+        flex: 1;
+        line-height: 1rem;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .cprice{
+        width: 2rem;
+        text-align: center;
+        font-size: 0.65rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+    .sku{
+      display: flex;
+      padding-top: 0.4rem;
+      .color{
+        flex: 1;
+        color: #999;
+        font-size: 0.6rem;
+        display: flex;
+        align-items: center;
+      }
+      .num{
+        display: flex;
+        width: 4rem;
+        height: 1.25rem;
+        border: 1px solid #ddd;
+        input{
+          width: 1.5rem;
+          height: 1.25rem;
+          line-height: 1.5rem;
+          border: 0;
+          text-align: center;
+          border-left: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+        }
+        .btn{
+          width: 1.2rem;
+          svg{
+            width: 100%;
+            height: 100%;
+            fill: currentColor;
+            font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+          }
+          &.dis{
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
 }
