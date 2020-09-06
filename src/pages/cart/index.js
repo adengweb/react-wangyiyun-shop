@@ -88,13 +88,18 @@ class Cart extends Component{
   onChangeBox = (index) => {
     this.state.hot[index].checked = !this.state.hot[index].checked;
 
+    
+    // console.log('isAllEqual',isAllEqual(arr));
     this.state.hot.slice(0, this.state.ids.length).some((item,i)=>
       {
-        console.log(i,this.state.hot[index].checked);
+        // console.log(i,this.state.hot[index].checked);
+        // let arr = []
+        // arr.push(item.checked)
         
         if(item.checked){
+          // console.log(arr)
+          
           this.setState({allChechked: true})
-          console.log(111);
         }else{
           console.log(222);
           this.setState({allChechked: false})
@@ -133,6 +138,16 @@ class Cart extends Component{
     let a = 1,
     b = 2;
     return a+b
+  }
+}
+
+function isAllEqual(array) {
+  if (array.length > 0) {
+      return !array.some(function(value, index) {
+          return value !== array[0];
+      });
+  } else {
+      return true;
   }
 }
 
