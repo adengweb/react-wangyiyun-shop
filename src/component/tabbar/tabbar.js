@@ -6,8 +6,8 @@ class TabBarItem extends Component{
     cartVal: 0
   }
   componentDidMount(){
-    console.log(JSON.parse(localStorage.getItem('cart_history')))
-    this.setState({cartVal: JSON.parse(localStorage.getItem('cart_history')).length})
+    // console.log(JSON.parse(localStorage.getItem('cart_history')))
+    // this.setState({cartVal: JSON.parse(localStorage.getItem('cart_history')).length})
   }
   render(){
     return (
