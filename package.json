@@ -13,7 +13,7 @@
     "antd-dayjs-webpack-plugin": "^1.0.0",
     "antd-mobile": "^2.3.3",
     "antd-mobile-demo-data": "^0.3.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "10.1.0",
     "babel-jest": "^24.9.0",
     "babel-loader": "8.1.0",
